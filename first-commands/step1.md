@@ -18,10 +18,14 @@ y luego un poco mas
 
 
 
+
 <pre class=file>
-drw-r-----. 2 root root  94 Jun  2 21:08 proprietary
--rwxr-x---. 1 root root  66 Jun  2 21:08 status.sh
--rwxr-x---. 1 root root 117 Jun  2 21:08 tasks.txt
+$ date
+Mon Nov 15 10:05:24 UTC 2021
+$ date +%R
+10:05
+$ date +%x
+11/15/2021
 </pre>
 
 
