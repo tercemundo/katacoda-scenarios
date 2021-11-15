@@ -6,7 +6,7 @@ lo primero que vamos a hacer, vamos a ejecutar, un ssh hacia el otro nodo.
 
 Aprovechando que aca hay una llaves cruzadas.
 
-`ssh root@172.17.0.55`{{EXECUTE}}
+`ssh root@node01`{{EXECUTE}}
 
 
 
