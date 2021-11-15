@@ -29,6 +29,6 @@
         "uilayout": "terminal"
     },
     "backend": {
-        "imageid": "openshift-4-7"
+        "imageid": "minikube:1.20"
     }
 }
