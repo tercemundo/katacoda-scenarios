@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # create guest user account
+yum -y install passwd
 useradd guest
 useradd -m rhel
 
