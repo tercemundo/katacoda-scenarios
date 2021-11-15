@@ -1,3 +1,2 @@
-<pre>systemctl list-units --type=service </pre>
-<pre>systemctl list-units --type=service --all</pre>
-<pre>systemctl status ssh.service </pre>
+<pre>gpasswd -M pperez,dmaradona,lmessi futbolistas </pre>
+<pre>gpasswd -M cmenem,ftal otrosl</pre>
