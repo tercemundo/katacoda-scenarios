@@ -28,6 +28,7 @@ $ date +%x
 11/15/2021
 </pre>
 
+En el proximo paso crearemos un usuario
 
 ![permission string breakdown](./assets/lsExplanation.png)
 
