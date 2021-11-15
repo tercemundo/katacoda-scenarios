@@ -10,8 +10,12 @@ useradd -m -c "Carlos Menem" -s /bin/bash -u 20004 cmenem
 useradd -m -c "Fulano del tal"-s /bin/bash -u 20005 ftal
 
 echo "pperez:master" | chpasswd
+
 echo "dmaradona:master" | chpasswd
+
 echo "lmessi:master" | chpasswd
+
 echo "cmenem:master" | chpasswd
+
 echo "ftal:master" | chpasswd
 
