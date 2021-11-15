@@ -5,7 +5,7 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1 - display targets",
+                "title": "Paso 1 - Agregando users al sistema",
                 "text": "step1.md",
                 "answer": "step1-answer.md"
             },
