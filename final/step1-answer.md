@@ -1,12 +1,17 @@
 
-useradd -c "Pablo Perez" -u 20001 pperez
+useradd -m -c "Pablo Perez" -s /bin/bash -u 20001 pperez
 
-useradd -c "Diego Maradona" -u 20002 dmaradona
+useradd -m -c "Diego Maradona" -s /bin/bash -u 20002 dmaradona
 
-useradd -c "Lionel Messi" -u 20003 lmessi
+useradd -m -c "Lionel Messi" -s /bin/bash -u 20003 lmessi
 
-useradd -c "Carlos Menem" -u 20004 cmenem
+useradd -m -c "Carlos Menem" -s /bin/bash -u 20004 cmenem
 
-useradd -c "Fulano del tal" -u 20005 ftal
+useradd -m -c "Fulano del tal"-s /bin/bash -u 20005 ftal
 
+echo "pperez:master" | chpasswd
+echo "dmaradona:master" | chpasswd
+echo "lmessi:master" | chpasswd
+echo "cmenem:master" | chpasswd
+echo "ftal:master" | chpasswd
 

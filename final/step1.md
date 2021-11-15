@@ -7,4 +7,6 @@ Cree los siguientes usuarios con la siguiente info
 "Carlos Menem" -u 20004 cmenem
 "Fulano del tal" -u 20005 ftal
 
+Con el password master
+
 ```
