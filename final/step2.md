@@ -1,4 +1,7 @@
-cambie el default target hacia multi user  multi-user 
+ahora cree los siguientes grupos
 
-Una vez hecho, clickee esto
-`if systemctl get-default | grep mul ; then echo "Congratulations!" ; fi`{{execute}}
+```
+futbolistas
+otros
+````
+

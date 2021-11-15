@@ -1,11 +1,7 @@
-<pre>Cuantos targets activos hay aca </pre>
+Agregue a Pablo Perez, Diego Maradona y Lionel Messi al grupo Futbolistas
 
+Agregue a Fulano y a Carlos Menem al grupo otros
 
->>Q1: Cual es el estado del  sshd.service?<<
-(*) active (running)
-( ) active (exited)
-( ) inactive (dead)
-( ) service doesnt exist
 
 
 
