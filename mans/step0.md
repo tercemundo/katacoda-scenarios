@@ -8,6 +8,6 @@ info
 
 ahora veremos un ejemplo, de como ejecutar una pagina de manual
 
-``man ls``{execute}
+`man ls`{{execute}}
 
 y vemos la salida que se nos presenta
