@@ -63,7 +63,7 @@
      "assets": {
             "host01":
             [
-                {"file": "verify.sh", "target": "/tmp", "chmod": "+x"}
+                {"file": "dif.py", "target": "/root", "chmod": "+x"}
             ]
     },
     "environment": {
