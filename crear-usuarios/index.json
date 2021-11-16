@@ -5,12 +5,13 @@
     "details": {
     "assets": {
       "host01": [
-        {"file": "dif.py", "target":"/srv/", "chmod": "750"}
+        {"file": "dif.py", "target":"/root/", "chmod": "750"},
+        {"file": "usuarios.txt", "target":"/root/", "chmod": "750"}
         ]
       },
     "steps": [
             {
-                "title": "Step 1 - Add Users",
+                "title": "Paso 1 - Agregar Usuarios",
 		"code": "set-env.sh",
                 "text": "step1.md",
                 "answer": "step1-answer.md",

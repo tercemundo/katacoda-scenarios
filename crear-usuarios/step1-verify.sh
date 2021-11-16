@@ -1,1 +1,1 @@
-OUT=$( grep starbuck /etc/shadow | cut -d: -f1) && [[ $OUT == starbuck ]] && echo done
+python3 /root/dif.py && echo done
