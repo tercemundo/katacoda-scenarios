@@ -1,1 +1,1 @@
-python3 /root/dif.py && echo done
+python3 /root/dif.py && if [ -f salida.txt ]; then echo done; fi

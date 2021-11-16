@@ -18,7 +18,7 @@ temp3 = [x for x in lines if x not in s]
 
 if len(temp3) > 0:
     print("hay un user de mas")
-    os.popen("echo mal > salida.txt")
+    os.popen("echo mal > salida_mal.txt")
 else:
     print("Todo bien")
     os.popen("echo ok > salida.txt")
