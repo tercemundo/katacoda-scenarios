@@ -61,10 +61,7 @@
         ]
     },
      "assets": {
-            "host01":
-            [
                 {"file": "dif.py", "target": "/root", "chmod": "+x"}
-            ]
     },
     "environment": {
         "hideintro": true,
