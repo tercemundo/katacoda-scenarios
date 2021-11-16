@@ -1,1 +1,9 @@
-Crear un usuario llamado mguazzardo
+Crear los siguientes usuarios
+
+lmessi
+dmaradona
+mplatini
+neymar
+gjesus
+
+
