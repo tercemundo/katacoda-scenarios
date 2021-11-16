@@ -57,13 +57,7 @@
                 "text": "step9.md",
                 "answer": "step9-answer.md",
                 "verify": "step9-verify.sh"
-            },
-	     "assets": {
-            "host01":
-            [
-                {"file": "dif.py", "target": "/root"}
-            ]
-        }
+            }
         ]
     },
     "environment": {
