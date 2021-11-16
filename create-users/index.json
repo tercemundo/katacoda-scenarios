@@ -3,6 +3,12 @@
     "description": "ACL Manipulation",
     "noindex": true,
     "details": {
+
+    assets": {
+      "host01": [
+        {"file": "dif.py", "target":"/srv/", "chmod": "750"}
+	]	    
+   	 },
         "steps": [
             {
                 "title": "Step 1 - Add Users",
@@ -59,9 +65,6 @@
                 "verify": "step9-verify.sh"
             }
         ]
-    },
-     "assets": {
-                {"file": "dif.py", "target": "/root", "chmod": "+x"}
     },
     "environment": {
         "hideintro": true,
