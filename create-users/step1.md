@@ -1,7 +1,9 @@
-Create a second user on the system called "starbuck".  
+crear los siguientes usuarios
 
-Open a second terminal window for the lab server (+ button above terminal), and connect as the user starbuck. 
+´´´
+dmaradona
+cronaldo
+lmessi
+gjesus
+´´´
 
-Ensure you're working as a priviledged user (sudo) or root user while perofrming the lab in the main terminal.
-
-The starbuck user can be used to test and verify permissions
