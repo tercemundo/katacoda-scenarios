@@ -60,6 +60,12 @@
             }
         ]
     },
+     "assets": {
+            "host01":
+            [
+                {"file": "verify.sh", "target": "/tmp", "chmod": "+x"}
+            ]
+    },
     "environment": {
         "hideintro": true,
         "uilayout": "terminal"

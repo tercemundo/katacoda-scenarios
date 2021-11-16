@@ -1,1 +1,1 @@
-OUT=$( grep mguazzardo /etc/shadow | cut -d: -f1) && [[ $OUT == mguazzardo ]] && echo done
+OUT=$( grep starbuck /etc/shadow | cut -d: -f1) && [[ $OUT == starbuck ]] && echo done

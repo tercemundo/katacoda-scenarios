@@ -1,2 +1,2 @@
-<pre> useradd -m mguazzardo </pre>
-<pre> passwd mguazzardo </<pre>
+<pre> useradd starbuck </pre>
+<pre> passwd <password> </<pre>
