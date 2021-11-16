@@ -1,4 +1,1 @@
-if [ -f /root/salida.txt ]
-then 
-   echo done
-fi
+[ -e /root/salida.txt ] && echo done
