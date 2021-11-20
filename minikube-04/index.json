@@ -1,6 +1,6 @@
 {
-	"title": "Module 3 - Explore su  app",
-	"description": "Explore su app",
+	"title": "Module 4 - Exponiendo nuestra  aplicacion publica",
+	"description": "Expose your app publicly",
 	"pathwayTitle": "Kubernetes Bootcamp",
 	"backend": {
 		"port": 30000,
@@ -13,18 +13,15 @@
 	},
 	"details": {
 		"steps": [{
-			"title": " Step 1 Chequeando la configuracion de la terminal",
+			"title": "Step 1 Creamos un nuevo microservicio",
 			"code": "foreground.sh",
 			"text": "step1.md"
 		}, {
-			"title": "Step 2 Mostrando la aplicacion de la termina",
+			"title": "Step 2: Usamos labels",
 			"text": "step2.md"
 		}, {
-			"title": "Step 3 Viendo los logs de los contenedores",
+			"title": "Step 3 Borrando el servicio",
 			"text": "step3.md"
-		}, {
-			"title": "Step 4 Executando comandos en los contenedors ",
-			"text": "step4.md"
 		}],
 		"intro": {
 			"courseData": "env-init.sh",
