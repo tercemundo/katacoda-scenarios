@@ -1,0 +1,34 @@
+{
+	"pathwayTitle": "Kubernetes Bootcamp",
+	"title": "Module 2 - Deployando una aplicacion",
+	"description": "Deploy an app",
+	"backend": {
+		"port": 30000,
+		"dockerimage": "minikube-running:1.20"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "kubectl basics",
+			"code": "foreground.sh",
+			"text": "step1.md"
+		}, {
+			"title": "Deployando nuestra app",
+			"text": "step2.md"
+		}, {
+			"title": "Viendo nuestra app",
+			"text": "step3.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	}
+}
