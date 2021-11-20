@@ -1,0 +1,34 @@
+{
+	"title": "Module 6 - Update your app",
+	"description": "Update your app",
+	"pathwayTitle": "Kubernetes Bootcamp",
+	"backend": {
+		"port": 30000,
+		"dockerimage": "minikube-running:1.20"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Step 1: actualizamos la version de la app",
+			"code": "foreground.sh",
+			"text": "step1.md"
+		}, {
+			"title": "Step 2: Verificamos el update",
+			"text": "step2.md"
+		}, {
+			"title": "Step 3: Hacemos un rollback del update",
+			"text": "step3.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	}
+}
