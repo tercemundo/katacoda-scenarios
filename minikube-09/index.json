@@ -7,7 +7,7 @@
   "details": {
     "steps": [
       {
-        "title": "Your Kubernetes Cluster",
+        "title": "Preparando el cluster",
         "text": "step1-k8s.md",
         "code": "clear.sh"
       },
@@ -17,12 +17,12 @@
         "code": "clear.sh"
       },
       {
-        "title": "Generate Spring Boot Source",
+        "title": "Preparando la aplicacion de python",
         "text": "step3-create-app.md",
         "code": "clear.sh"
       },
       {
-        "title": "Add Logic",
+        "title": "Continuando",
         "text": "step4-edit-code.md",
         "code": "clear.sh"
       },
@@ -47,11 +47,10 @@
       }
     ],
     "intro": {
-      "title": "Spring Boot to Kubernetes",
+      "title": "Iniciando a los deployments en kubernetes",
       "text": "intro.md",
       "code": "env-init.sh",
-      "credits": "[Jonathan Johnson](http://www.dijure.com)"
-    },
+    ,
     "finish": {
       "text": "finish.md"
     },
@@ -67,11 +66,11 @@
   "environment": {
     "showdashboard": true,
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "uimessage1": "\u001b Buscame en Linkedin como Marcelo Guazzardo , o mguazzardo76@gmail.com .\u001b[m\r\n",
     "icon": "fa-kubernetes",
     "dashboards": [
       {"name": "Kubernetes Dashboard", "port": 30000},
-      {"name": "Hello App", "port": 32500}
+      {"name": "Flaskapi App", "port": 32500}
     ]
   },
   "backend": {
