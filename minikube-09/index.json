@@ -1,13 +1,13 @@
 {
-  "pathwayTitle": "Modulo 9",
-  "title": "Modulo 9",
-  "description": "Generando nuestro modulo y mandandolo luego hacia el registry",
+  "pathwayTitle": "Flaskapi Python Kubernetes",
+  "title": "Flaksapi Python kubernetes",
+  "description": "Veremos todo el ciclo de vida de una app de flask.",
   "difficulty":	"Beginner",
   "time":	"15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Preparando el cluster",
+        "title": "Your Kubernetes Cluster",
         "text": "step1-k8s.md",
         "code": "clear.sh"
       },
@@ -17,12 +17,12 @@
         "code": "clear.sh"
       },
       {
-        "title": "Preparando la aplicacion de python",
+        "title": "Generate Spring Boot Source",
         "text": "step3-create-app.md",
         "code": "clear.sh"
       },
       {
-        "title": "Continuando",
+        "title": "Add Logic",
         "text": "step4-edit-code.md",
         "code": "clear.sh"
       },
@@ -47,10 +47,11 @@
       }
     ],
     "intro": {
-      "title": "Iniciando a los deployments en kubernetes",
+      "title": "Spring Boot to Kubernetes",
       "text": "intro.md",
       "code": "env-init.sh",
-    ,
+      "credits": "[Jonathan Johnson](http://www.dijure.com)"
+    },
     "finish": {
       "text": "finish.md"
     },
@@ -66,7 +67,7 @@
   "environment": {
     "showdashboard": true,
     "uilayout": "terminal",
-    "uimessage1": "\u001b Buscame en Linkedin como Marcelo Guazzardo , o mguazzardo76@gmail.com .\u001b[m\r\n",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
     "icon": "fa-kubernetes",
     "dashboards": [
       {"name": "Kubernetes Dashboard", "port": 30000},
