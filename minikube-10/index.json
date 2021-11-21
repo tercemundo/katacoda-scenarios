@@ -1,0 +1,50 @@
+{
+  "pathwayTitle": "volumenes",
+  "title": "Explorando Volumenes",
+  "description": "Explorando Volumenes",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Volumes Emptydir",
+        "text": "paso1.md",
+        "code": "clear.sh"
+      },
+      {
+        "title": "Volumes HostPah",
+        "text": "paso2.md",
+        "code": "clear.sh"
+      }
+    ],
+    "intro": {
+      "title": "Introduccion a Volumentes",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "[Marcelo guazzardo](mguazzardo76@gmail.com)"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+       {"file": "pod1.yaml", "target": "~/", "chmod": "+x"},
+       {"file": "pod2.yaml", "target": "~/", "chmod": "+x"}
+      ]
+
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes",
+    "dashboards": [
+      {"name": "Kubernetes Dashboard", "port": 30000},
+      {"name": "Flaskapi App", "port": 32500}
+    ]
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running"
+  }
+}
