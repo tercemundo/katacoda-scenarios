@@ -1,3 +1,12 @@
+NOTA:
+
+si queremos entra al dashboard, lo podremos hacer con 
+
+```
+token.sh
+```{{execute}}
+
+
 Los volumenes creados con `emptyDir: {}` se crean en el propio sistema de archivos del nodo y solo viven mientras vive el pod (pero sobrevive a los reinicios). Probemos a desplegar un pod con un volumen de este tipo: 
 
 ```
@@ -16,8 +25,11 @@ una vez dentro, comprobamos que el directorio `/tmp/xchange` esta vacío y cream
 ls /tmp/xchange
 touch /tmp/xchange/iwashere.txt
 ls /tmp/xchange
-exit
 ```{{execute}}
+
+Salimos del contenedor 
+
+`exit`{{execute}}
 
 y comprobamos en el contenedor `c2`:
 

@@ -1,6 +1,6 @@
 {
   "pathwayTitle": "volumenes",
-  "title": "Explorando Volumenes",
+  "title": "Module 10 - Explorando Volumenes",
   "description": "Explorando Volumenes",
   "difficulty":	"Beginner",
   "time":	"15 minutes",
@@ -29,7 +29,8 @@
     "assets": {
       "host01": [
        {"file": "pod1.yaml", "target": "~/", "chmod": "+x"},
-       {"file": "pod2.yaml", "target": "~/", "chmod": "+x"}
+       {"file": "pod2.yaml", "target": "~/", "chmod": "+x"},
+       {"file": "token.sh", "target": "/usr/local/bin", "chmod": "+x"}
       ]
 
     }
