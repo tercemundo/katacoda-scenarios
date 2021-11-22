@@ -48,7 +48,7 @@ Desplegamos el _prometheus-operator_ con todas sus dependencias con un único co
 
 ```
 kubectl create ns monitoring
-helm install stable/prometheus-operator --name prometheus-operator --namespace monitoring -f custom-values.yaml
+helm install stable/prometheus-operator  --namespace monitoring -f custom-values.yaml --generate-name
 ```{{execute}}
 
 Podemos ver el estado con `kubectl --namespace monitoring get pods -l "release=prometheus-operator"`{{execute}}
