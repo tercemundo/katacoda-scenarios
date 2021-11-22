@@ -40,7 +40,7 @@ bash mariadb-secretes/forward-pod-mariadb.sh && sleep 5 && echo "creado el tunel
 Ahora lo que nos resta es agregar los datos y ver como quedaron los servicios
 
 ```
-mysql -uroot -pmaster -h 127.0.0.1 < db.sql && kubectl get svc"
+mysql -uroot -pmaster -h 127.0.0.1 < db.sql && kubectl get svc
 ```{{execute}}
 
 Y luego sacamos el port para visitar la pagina
