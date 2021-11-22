@@ -15,7 +15,7 @@ Luego vamos a ese namespace
 
 Una vez alli, desplegamos la aplicacion del fronted
 
-`bash comandos-k8s.sh`{{execute}}
+`git clone https://github.com/mguazzardo/demislamer && cd demislamer && bash comandos-k8s.sh`{{execute}}
 
 Una vez que tenemos esto, vamos a desplegar nuestro mariadb
 
