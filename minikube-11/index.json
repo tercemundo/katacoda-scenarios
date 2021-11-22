@@ -7,14 +7,20 @@
   "details": {
     "steps": [
       {
-        "title": "Volumes Emptydir",
-        "text": "paso1.md",
-        "code": "clear.sh"
+        "title": "Prometeus",
+        "text": "paso1.md"
       },
       {
-        "title": "Volumes HostPah",
-        "text": "paso2.md",
-        "code": "clear.sh"
+        "title": "Prometeus",
+        "text": "paso2.md"
+      },
+       {
+        "title": "AlertManager",
+        "text": "paso3.md"
+      },
+       {
+        "title": "Grafana",
+        "text": "paso4.md"
       }
     ],
     "intro": {
@@ -28,8 +34,8 @@
     },
     "assets": {
       "host01": [
-       {"file": "pod1.yaml", "target": "~/", "chmod": "+x"},
-       {"file": "pod2.yaml", "target": "~/", "chmod": "+x"},
+       {"file": "custom-values.yaml", "target": "/root", "chmod": "+x"},
+       {"file": "default.conf", "target": "/root", "chmod": "+x"},
        {"file": "token.sh", "target": "/usr/local/bin", "chmod": "+x"}
       ]
 
