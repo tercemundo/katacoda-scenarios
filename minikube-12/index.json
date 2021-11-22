@@ -36,7 +36,7 @@
     "icon": "fa-kubernetes",
     "dashboards": [
       {"name": "Kubernetes Dashboard", "port": 30000},
-      {"name": "Prometheus", "port": 30090}, {"name": "Alert Manager", "port": 30091}, {"name": "Grafana", "port": 30092}]
+      {"name": "Aplicacion", "port": 30090}]
   },
   "backend": {
     "imageid": "kubernetes-cluster-running"
