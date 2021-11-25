@@ -1,20 +1,20 @@
-Create cluster 
+Creando el cluster 
 
-## Install kind (latest release)
+## Instalando kind (latest release)
 
-First lets install latest version of Kind - so we can use it to create kubernetes cluster
+Primero vamos a usar un script para instalar kind usando la ultima version
 
 `./install_kind.sh`{{execute}}
 
-## Create a kind config
+## Creando una config de  kind 
 
-We will use below kind config 
+Usaremos la siguiente configuracion de kind 
 
 `bat kind-cluster.yaml`{{execute}}
 
-## Create a cluster 
+## Creando un cluster
 
-This will create 1 control plane (Master) Node and 3 worker Nodes
+Este cluster sera de 1 control plane (Master) Node y 3 worker Nodes
 
 `kind create cluster --config kind-cluster.yaml`{{execute}} *(this should take 4~5 minutes)*
 
@@ -40,26 +40,21 @@ Have a question, bug, or feature request? Let us know! https://kind.sigs.k8s.io/
 ```       
 </details>
 
-## Wait for cluster to be ready 
+## Espere mientras preparamos su cluster 
 
-Let's wait for all Nodes in cluster to post ***Ready*** status before we
-continue
+Debemos esperar hasta que todos los nodos del cluster esten  ***Ready***
+Para ello ejecutamos el siguiente script 
 
 `./isClusterReady.sh `{{execute}}
 
 ## Cluster
 
-Now we have cluster running as shown below 
+Ahora tenemos un cluster corriendo con la siguiente configuracion 
 
-1. We have 4 docker containers running each running one of kubernetes
-   nodes - Kubernetes version should be latest (1.19.x as of now)
-2. One of the docker container is running master/control plane
-   components 
-3. Other 3 running worker nodes 
-4. If you `exec` in one of the docker container you will see they are
-   configured using `kubead` and CRI for PODs is `container-d` 
-5. Kind has also set up `kubeconfig` so we can use kubectl to
-   talk/interact with this cluster
+1. 4 contenedores docker corriendo cada uno un nodo de kubernetes en la ultima version  
+2. Uno es el  master/control plane
+    
+3. Los otros 3 worker nodes 
 
 
 ![](./assets/KIND-1.png)

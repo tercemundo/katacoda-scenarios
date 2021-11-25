@@ -1,6 +1,6 @@
 {
-  "title": "Install 1 master 3 Nodes cluster using Kind",
-  "description": "In this scenario we will learn how easy to create a test grade 1 Master and 3 Nodes kubernetes cluster using Kind",
+  "title": "Modulo 14 - Instalando 1 master 3 Nodes cluster usando kind",
+  "description": "Mostraremos en este escenario lo sencillo que es instalar un cluster con 3 nodos usando dind",
   "difficulty": "intermediate",
   "time": "30 minutes",
   "details": {
@@ -10,16 +10,16 @@
       "courseData": "env-init.sh",
       "code": "foreground.sh"
     },{
-      "title": "Step 2 - Populate the cluster",
+      "title": "Step 2 - Populando el cluster",
       "text": "step2.md"
     },{
-      "title": "Step 3 - Check IPTables",
+      "title": "Step 3 - Chequeo de Iptables",
       "text": "step3.md"
     },{
-      "title": "Step 4 - Update service",
+      "title": "Step 4 - Actualizando el Servicio",
       "text": "step4.md"
     },{
-      "title": "Step 5 - Cleaning up",
+      "title": "Step 5 - Borrando",
       "text": "step5.md"
     }],
     "intro": {
