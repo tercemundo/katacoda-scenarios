@@ -6,7 +6,7 @@
     "difficulty": "beginner",
     "time": "60 minutes",
     "backend": {
-        "imageid": "openshift-4-7"
+        "imageid": "openshift-4-9"
     },
     "environment": {
         "showdashboard": true,
