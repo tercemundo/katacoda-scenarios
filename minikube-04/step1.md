@@ -37,8 +37,7 @@ Ahora podemos probar mediante curl, si la aplicacion responde `curl`
 
 Ahora vamos a hacer un pacheo, por que queremos que el puerto este corriendo en el 30080
 
-![alt text] (https://github.com/tercemundo/katacoda-scenarios/blob/main/minikube-04/patch-svc.png)
-
+<img align="left" src="./assets/patch-svc.png" width="200">
 
 `kubectl patch service kubernetes-bootcamp --type='json' --patch='[{"op": "replace", "path": "/spec/ports/0/nodePort", "value":30080}]' `{{execute}}
 
