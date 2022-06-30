@@ -31,11 +31,11 @@ Para encontrar que puerto ha sido abierto (Mediante la opcion  NodePort )  corre
 
 Creamos una variable de ambiente llamada  NODE_PORT con el valor asignado:
 
-`export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')
+`export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}') &&
 echo NODE_PORT=$NODE_PORT`{{execute}}
 
 Ahora podemos probar mediante curl, si la aplicacion responde `curl`
 
-`curl $(minikube ip):$NODE_PORT`{{execute}}
+`echo $NODE_PORT`{{execute}}
 
 Y vemos que el servicio esta expuesto.
