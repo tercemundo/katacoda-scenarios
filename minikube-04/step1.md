@@ -1,8 +1,5 @@
 Vemos si hay pods corriendo.
 
-Creemos nuestro deployment
-
-`kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1 --port=8080`{{execute}}
 
 Esperamos unos segundos y vemos si hay pods corriendo
 
@@ -40,7 +37,7 @@ Ahora podemos probar mediante curl, si la aplicacion responde `curl`
 
 Ahora vamos a hacer un pacheo, por que queremos que el puerto este corriendo en el 30080
 
-`kubectl patch service kubernetes-dashboard --namespace=kube-system --type='json' --patch='[{"op": "replace", "path": "/spec/ports/0/nodePort", "value":30000}] `{{execute}}
+`kubectl patch service kubernetes-bootcamp --type='json' --patch='[{"op": "replace", "path": "/spec/ports/0/nodePort", "value":30080}]' `{{execute}}
 
 Y vemos que el servicio esta expuesto.
 
