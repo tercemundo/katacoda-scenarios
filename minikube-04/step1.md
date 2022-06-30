@@ -38,4 +38,10 @@ Ahora podemos probar mediante curl, si la aplicacion responde `curl`
 
 `echo $NODE_PORT`{{execute}}
 
+Ahora vamos a hacer un pacheo, por que queremos que el puerto este corriendo en el 30080
+
+`kubectl patch service kubernetes-dashboard --namespace=kube-system --type='json' --patch='[{"op": "replace", "path": "/spec/ports/0/nodePort", "value":30000}] `{{execute}}
+
 Y vemos que el servicio esta expuesto.
+
+[ACCESS SERVICIO]({{TRAFFIC_HOST1_30080}})
