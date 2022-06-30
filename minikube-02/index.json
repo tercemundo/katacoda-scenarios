@@ -4,7 +4,7 @@
 	"description": "Deploy an app",
 	"backend": {
 		"port": 30000,
-		"dockerimage": "kubernetes-kubeadm-1node"
+		"imageid": "kubernetes-kubeadm-1node"
 	},
 	"environment": {
 		"uilayout": "terminal",
