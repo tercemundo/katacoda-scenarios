@@ -1,5 +1,11 @@
 Vemos si hay pods corriendo.
 
+Creemos nuestro deployment
+
+`kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1 --port=8080`{{execute}}
+
+Esperamos unos segundos y vemos si hay pods corriendo
+
 `kubectl get pods`{{execute}}
 
 Nuevamente, si no hay pods corriendo esperamos.
