@@ -4,7 +4,7 @@ Si bien existen muchas opciones para empezar, preferimos la solucion integral de
 
 Agregamos el repo de helm estable.
 
-`{helm repo add stable https://charts.helm.sh/stable`{{execute}}
+`helm repo add stable https://charts.helm.sh/stable`{{execute}}
 
 Luego instalamos nuestro registro de docker.
 
