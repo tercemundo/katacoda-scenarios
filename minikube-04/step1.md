@@ -35,6 +35,10 @@ Ahora podemos probar mediante curl, si la aplicacion responde `curl`
 
 `echo $NODE_PORT`{{execute}}
 
+Como necesito fijar el puerto, primero voy a ejecutar un describe con salida json.
+
+`kubectl get services kubernetes-bootcamp -o json`{{execute}}
+
 Ahora vamos a hacer un pacheo, por que queremos que el puerto este corriendo en el 30080
 
 <img align="right" src="./assets/patch-svc.png" width="800">
@@ -43,4 +47,4 @@ Ahora vamos a hacer un pacheo, por que queremos que el puerto este corriendo en 
 
 Y vemos que el servicio esta expuesto.
 
-[ACCESS SERVICIO]({{TRAFFIC_HOST1_30080}})
+[DemoBootcampParte1]({{TRAFFIC_HOST1_30080}})
