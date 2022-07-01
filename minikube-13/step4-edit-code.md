@@ -13,7 +13,13 @@ Luego que la base de datos esta creada, generamos un tunel para popularla
 
 `bash comandos.sh`{{execute}}
 
+Necesitamos tener el cliente mysql
+
+`apt install mysql-client-core-8.0`{{execute}}
+
+
 Una vez que tenemos el tunel creado, lo populamos
+
 
 `mysql -u root -pmaster -h 127.0.0.1 < data/init.sql`{{execute}}
 
