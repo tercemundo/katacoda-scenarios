@@ -6,9 +6,6 @@ Vemos que todo haya salido.
 
 `kubectl get services`{{execute}}
 
-Esto deja de exponer nuestra app. veremos.
-
-`curl $(minikube ip):$NODE_PORT`{{execute}}
 
 La app no esta sirviendo fuera del cluster. Pero podemos probar que esta siga sirviendo dentro del pod.
 

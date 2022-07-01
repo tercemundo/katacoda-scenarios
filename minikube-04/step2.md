@@ -12,7 +12,7 @@ Podemos hacer lo mismo con los servicios:
 
 Obtenemos el nombre del POD y lo guardamos en una variable:
 
-`export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+`export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}') &&
 echo Name of the Pod: $POD_NAME`{{execute}}
 
 Para aplicar una nueva etiqueta nosotros usamos el comando label seguido el tipo de recurso, u objecto.
