@@ -37,7 +37,7 @@ Ahora podemos probar mediante curl, si la aplicacion responde `curl`
 
 Ahora vamos a hacer un pacheo, por que queremos que el puerto este corriendo en el 30080
 
-<img align="right" src="./assets/patch-svc.png" width="400">
+<img align="right" src="./assets/patch-svc.png" width="800">
 
 `kubectl patch service kubernetes-bootcamp --type='json' --patch='[{"op": "replace", "path": "/spec/ports/0/nodePort", "value":30080}]' `{{execute}}
 
