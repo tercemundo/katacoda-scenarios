@@ -1,6 +1,5 @@
 #!/bin/sh
 
-launch.sh
 
 apt update > /dev/null 2>&1 
 apt install tree --yes -qq
