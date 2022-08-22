@@ -3,8 +3,7 @@
 	"title": "Centos7 from scratch",
 	"description": "Centos 7 from scratch",
 	"backend": {
-		"port": 30000,
-		"imageid": "kubernetes-kubeadm-1node"
+		"imageid": "ubuntu"
 	},
 	"environment": {
 		"uilayout": "terminal",
