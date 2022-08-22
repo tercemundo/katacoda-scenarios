@@ -20,12 +20,14 @@ finally...
 and, we can see the docker image created. We will able to launch the container
 
 
-`docker run -d --name centos centos-scratch`{{execute}}
+`docker run -itd --name centos centos-scratch`{{execute}}
+
+Remember. When you run an image, always run it with -- itd.Remember. When you run an image, always run it with -- itd.
 
 and Finally, we can log in
 
 
-`docker exec -itd centos bash`{{execute}}
+`docker exec -it centos bash`{{execute}}
 
 Congrats!
 Follow me in linkedin for more tutorials! Marcelo Guazzardo
