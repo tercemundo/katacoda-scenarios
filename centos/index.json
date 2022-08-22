@@ -1,0 +1,28 @@
+{
+	"pathwayTitle": "Curso do180",
+	"title": "Centos7 from scratch",
+	"description": "Centos 7 from scratch",
+	"backend": {
+		"port": 30000,
+		"imageid": "kubernetes-kubeadm-1node"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Cluster up and running",
+			"text": "step1.md"
+			"text": "step3.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	}
+}
