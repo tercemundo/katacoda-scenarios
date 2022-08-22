@@ -15,7 +15,6 @@
 		"steps": [{
 			"title": "Cluster up and running",
 			"text": "step1.md"
-			"text": "step3.md"
 		}],
 		"intro": {
 			"courseData": "env-init.sh",
