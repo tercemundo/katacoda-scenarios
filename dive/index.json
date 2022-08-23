@@ -1,18 +1,18 @@
 {
-  "pathwayTitle": "Aplicacion multitier",
-  "title": "Aplicacion Multitier",
-  "description": "Veremos todo el ciclo de vida de una app de flask.",
+  "pathwayTitle": "DiveUse",
+  "title": "DiveUse",
+  "description": "DiveUse",
   "difficulty":	"Beginner",
   "time":	"15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Your Kubernetes Cluster",
+        "title": "DiveUse",
         "text": "step1.md"
       }
     ],
     "intro": {
-      "title": "Spring Boot to Kubernetes",
+      "title": "UseDive",
       "text": "intro.md",
       "credits": "Marcelo Guazzardo"
     },
@@ -21,7 +21,8 @@
     },
     "assets": {
       "host01": [
-        {"file": "Dockerfile", "target": "/root"}
+        {"file": "Dockerfile", "target": "/root"},
+        {"file": "app/hello.c", "target": "/root/app/hello.c"}
       ]
     }
   },
