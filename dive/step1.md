@@ -25,13 +25,13 @@ RUN gcc -o hello hello.c
 CMD [ "/app/hello" ]
 ```
 
-then , cd to repo-dir
+then , cd to repo-dir app
 
-`cd centos7`{{execute}}
+`cd app`{{execute}}
 
 and finally, we should generate the image
 
-`docker build -t centos-scratch .`{{execute}}
+`docker build -t stage0 .`{{execute}}
 
 wait for a while.
 
@@ -42,14 +42,15 @@ finally...
 and, we can see the docker image created. We will able to launch the container
 
 
-`docker run -itd --name centos centos-scratch`{{execute}}
+Next, we need to install dive
 
-Remember. When you run an image, always run it with -- itd.Remember. When you run an image, always run it with -- itd.
-
-and Finally, we can log in
+`wget https://github.com/wagoodman/dive/releases/download/v0.9.2/dive_0.9.2_linux_amd64.deb && dpkg -i dive_0.9.2_linux_amd64.deb`{{execute}}
 
 
-`docker exec -it centos bash`{{execute}}
+and Finally, we run the dive tool
+
+
+`dive stage0:latest`{{execute}}
 
 Congrats!
 Follow me in linkedin for more tutorials! Marcelo Guazzardo
