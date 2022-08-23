@@ -24,14 +24,10 @@
       "host01": [
         {"file": "Dockerfile", "target": "/root"}
       
-    }
-  },
-  "environment": {
-    "showdashboard": true,
-    "uilayout": "terminal",
-    "icon": "fa-kubernetes"
-  },
+    },
+
   "backend": {
     "imageid": "ubuntu"
   }
+}
 }
