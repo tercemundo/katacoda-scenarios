@@ -25,9 +25,6 @@ RUN gcc -o hello hello.c
 CMD [ "/app/hello" ]
 ```
 
-then , cd to repo-dir app
-
-`cd app`{{execute}}
 
 and finally, we should generate the image
 
