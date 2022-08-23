@@ -26,12 +26,6 @@
       ]
     }
   },
-  "environment": {
-    "showdashboard": true,
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mWelcome to do180 course.\u001b[m\r\n",
-    "icon": "fa-kubernetes"
-  },
   "backend": {
     "imageid": "ubuntu"
   }
