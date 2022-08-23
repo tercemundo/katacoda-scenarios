@@ -8,14 +8,12 @@
     "steps": [
       {
         "title": "Your Kubernetes Cluster",
-        "text": "step1-k8s.md",
-        "code": "clear.sh"
+        "text": "step1.md"
       }
     ],
     "intro": {
       "title": "Spring Boot to Kubernetes",
       "text": "intro.md",
-      "code": "env-init.sh",
       "credits": "Marcelo Guazzardo"
     },
     "finish": {
