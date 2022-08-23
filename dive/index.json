@@ -24,11 +24,13 @@
 		}
 	},
 	 "assets": {
-        "host01": [
-        {"file": "./app/hello.c", "target": "/root"},
-        {"file": "./Dockerfile", "target": "/root"}
-
+      "host01": [
+        {"file": "Dockerfile", "target": "/root"},
+       {"file": "app/hello.c", "target": "/root/app"}
       ]
     }
+  }
+
+
 
 }
