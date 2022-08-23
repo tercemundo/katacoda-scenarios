@@ -1,33 +1,40 @@
 {
-	"pathwayTitle": "Curso do180",
-	"title": "Dive Use",
-	"description": "Dive Use",
-	"backend": {
-		"imageid": "ubuntu"
-	},
-	"environment": {
-		"uilayout": "terminal",
-		"hideintro": false,
-		"hidefinish": false
-	},
-	"details": {
-		"steps": [{
-			"title": "Demo Dive",
-			"text": "step1.md"
-		}],
-		"intro": {
-			"courseData": "env-init.sh",
-			"text": "intro.md"
-		},
-		"finish": {
-			"text": "finish.md"
-		}
-	},
-	 "assets": {
+  "pathwayTitle": "Dive Use",
+  "title": "DiveUse",
+  "description": "DiveUse",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "DiveUse",
+        "text": "step1.md",
+        "code": "clear.sh"
+      }
+    ],
+    "intro": {
+      "title": "DiveUse",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "[Marcelo Guazzardo](http://mguazzardo.blogspot.com)"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
         {"file": "Dockerfile", "target": "/root"},
-       {"file": "app/hello.c", "target": "/root/app"}
+        {"file": "app", "target": "/root"}
+      ]
     }
-
-
-
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mWelcome to do180 course.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
 }
