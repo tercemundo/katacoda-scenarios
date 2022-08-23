@@ -1,0 +1,42 @@
+{
+  "pathwayTitle": "DiveUse Podman",
+  "title": "DiveUse Podman",
+  "description": "DiveUse Podman",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "DiveUse Podman",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "title": "UseDive Podman",
+      "text": "intro.md",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "Dockerfile", "target": "/root"},
+        {"file": "app/hello.c", "target": "/root/app"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes",
+    "dashboards": [
+      {"name": "Kubernetes Dashboard", "port": 30000},
+      {"name": "Flaskapi App", "port": 32500}
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
