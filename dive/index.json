@@ -8,14 +8,12 @@
     "steps": [
       {
         "title": "DiveUse",
-        "text": "step1.md",
-        "code": "clear.sh"
-      }
+        "text": "step1.md"
+      
     ],
     "intro": {
       "title": "DiveUse",
       "text": "intro.md",
-      "code": "env-init.sh",
       "credits": "[Marcelo Guazzardo](http://mguazzardo.blogspot.com)"
     },
     "finish": {
