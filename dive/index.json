@@ -25,8 +25,8 @@
 	},
 	 "assets": {
         "host01": [
-        {"file": "./app/hello.c", "target": "/app"},
-        {"file": "./Dockerfile", "target": "/app"}
+        {"file": "./app/hello.c", "target": "/root"},
+        {"file": "./Dockerfile", "target": "/root"}
 
       ]
     }
