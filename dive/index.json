@@ -1,0 +1,34 @@
+{
+	"pathwayTitle": "Curso do180",
+	"title": "Dive Use",
+	"description": "Dive Use",
+	"backend": {
+		"imageid": "ubuntu"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Demo Dive",
+			"text": "step1.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	 "assets": {
+        "host01": [
+        {"file": "./app/hello.c", "target": "/app"},
+        {"file": "./Dockerfile", "target": "/app"}
+
+      ]
+    }
+
+}
