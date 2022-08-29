@@ -1,0 +1,72 @@
+{
+  "pathwayTitle": "DevOps 101 - Tenerife",
+  "title": "Docker - Intro",
+  "description": "Tus primeros pasos para meterlo todo en contenedores sin ser estibador/a ;)",
+  "difficulty": "Principiante",
+  "time": "60 minutes",
+  "details": {
+     "steps": [
+      {
+      "title": "Preparándonos para utilizar Docker",
+      "text": "steps/step1.md"
+      },
+     {
+      "title": "Preparándonos para utilizar Docker",
+      "text": "steps/step2.md"
+      },
+     {
+      "title": "Preparándonos para utilizar Docker",
+      "text": "steps/step3.md"
+      },       
+     {
+      "title": "Ejercicio práctico: despliegue de varios contenedores",
+      "text": "steps/step4.md"
+      },       
+     {
+      "title": "Ejercicio práctico: volúmenes persistentes",
+      "text": "steps/step5.md"
+      },       
+     {
+      "title": "Ejercicio práctico: creando un Dockerfile",
+      "text": "steps/step6.md"
+      },       
+     {
+      "title": "Ejercicio práctico: fichero para docker-compose",
+      "text": "steps/step7.md"
+      },       
+     {
+      "title": "Ejercicio práctico: escenario multi-contenedor",
+      "text": "steps/step8.md"
+      },       
+     {
+      "title": "Ejercicio práctico: aplicación multiservicio",
+      "text": "steps/step9.md"
+      }     
+    ],
+    "intro": {
+      "text": "stages/intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "stages/finish.md",
+	  "credits": ""
+    },
+    "assets": { 
+      "client": [{
+        "file": "nginx/Dockerfile", 
+        "target": "/home/scrapbook/tutorial/nginx/"
+      }, {
+        "file": "nginx/index.html",
+        "target": "/home/scrapbook/tutorial/nginx/"
+      }]
+     }
+  },
+  "environment": {
+    "showdashboard": true,
+	"uilayout": "terminal-terminal",
+    "uimessage1": "\u001b[32mThis is your bash terminal...\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
