@@ -2,6 +2,11 @@ Necesitaremos un registro para construir, pushear y deployar. Si bien existen re
 
 Si bien existen muchas opciones para empezar, preferimos la solucion integral de kubernetes, al cual lo instalaremos via helm, [stable Helm chart](https://github.com/helm/charts/tree/master/stable/docker-registry#docker-registry-helm-chart).
 
+
+`helm repo add stable https://charts.helm.sh/stable`{{execute}}
+
+Agregamos el repo, y ahora hacemos el install del registry
+
 `helm install registry stable/docker-registry --namespace kube-system --set service.type=NodePort --set service.nodePort=31500`{{execute}}
 
 El registro esta disponible como  servicio. Lo listamos listed.
