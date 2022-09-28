@@ -20,4 +20,6 @@ si observamos el Dockerfile vemos que se expone el port 3000, a ese puerto iremo
 
 Y ahora vemos si todo anduvo bien!
 
+[DemoBootcampParte1]({{TRAFFIC_HOST1_3000}})
+
 
