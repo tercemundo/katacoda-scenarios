@@ -1,0 +1,37 @@
+{
+	"title": "React Pelis",
+	"description": "React Pelis",
+	"pathwayTitle": "React Pelis",
+	"backend": {
+		"port": 30000,
+		"imageid": "kubernetes-kubeadm-1node"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": " Configurando React",
+			"code": "foreground.sh",
+			"text": "step1.md"
+		}, {
+			"title": "Step 2 Mostrando la aplicacion de la termina",
+			"text": "step2.md"
+		}, {
+			"title": "Step 3 Viendo los logs de los contenedores",
+			"text": "step3.md"
+		}, {
+			"title": "Step 4 Executando comandos en los contenedors ",
+			"text": "step4.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	}
+}
