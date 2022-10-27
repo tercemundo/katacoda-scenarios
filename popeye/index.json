@@ -1,0 +1,34 @@
+{
+	"title": "Popeye",
+	"description": "POPEYE",
+	"pathwayTitle": "Kubernetes Bootcamp",
+	"backend": {
+		"port": 30000,
+		"imageid": "kubernetes-kubeadm-1node"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "veremos como jugar con popeye",
+			"code": "foreground.sh",
+			"text": "step1.md"
+		}, {
+			"title": "Step 2: Usamos labels",
+			"text": "step2.md"
+		}, {
+			"title": "Step 3 Borrando el servicio",
+			"text": "step3.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	}
+}
