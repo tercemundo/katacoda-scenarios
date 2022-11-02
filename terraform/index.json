@@ -1,7 +1,7 @@
 {
   "pathwayTitle": "Terraform docker",
   "title": "Terraform docker",
-  "description": "DiveUse",
+  "description": "Ejemplo basico de terraform",
   "difficulty":	"Beginner",
   "time":	"15 minutes",
   "details": {
