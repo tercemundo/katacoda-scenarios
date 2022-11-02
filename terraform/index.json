@@ -1,0 +1,38 @@
+{
+  "pathwayTitle": "Terraform docker",
+  "title": "Terraform docker",
+  "description": "DiveUse",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Terraform docker",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "title": "terraform demo",
+      "text": "intro.md",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "provider.tf", "target": "/root"},
+        {"file": "container.tf", "target": "/root/"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
