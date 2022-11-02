@@ -16,11 +16,11 @@ sudo apt update && sudo apt install terraform
 
 Corremos terraform init y terraform plan
 
-` cd /root && terraform init && terraform plan ` {{execute}}
+` cd /root && terraform init && terraform plan `{{execute}}
 
 finalmente, corremos el apply
 
-`terraform apply --auto-approve` {{execute}}
+`terraform apply --auto-approve`{{execute}}
 
 para revisar que todo salio como queriamos, ejecutamos 
 
