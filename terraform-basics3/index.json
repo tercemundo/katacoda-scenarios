@@ -22,7 +22,7 @@
     "assets": {
       "host01": [
         {"file": "provider.tf", "target": "/root"},
-	{"file": "kube.tf", "target": "/root"},
+	{"file": "kube.tf", "target": "/root"}
       ]
     }
   },
