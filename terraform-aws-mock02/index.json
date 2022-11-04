@@ -1,13 +1,13 @@
 {
-  "pathwayTitle": "Terraform aws-mock01",
-  "title": "Terraform aws-mock-01",
-  "description": "Terraform aws-mock01",
+  "pathwayTitle": "Terraform aws-mock02",
+  "title": "Terraform aws-mock-02",
+  "description": "Terraform aws-mock02",
   "difficulty":	"Beginner",
   "time":	"15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Terraform aws-mocks01",
+        "title": "Terraform aws-mocks02",
         "text": "step1.md"
       }
     ],

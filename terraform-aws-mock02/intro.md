@@ -1,3 +1,3 @@
-# el proposito de este tutorial es usar terraform aws mock01.
+# el proposito de este tutorial es usar terraform aws mock02.
 
 
