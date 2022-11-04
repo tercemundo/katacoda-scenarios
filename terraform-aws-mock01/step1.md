@@ -2,6 +2,22 @@
 
 trataremos de correr terraform aws mock.
 
+vamos a generar el entorno
+
+```
+unzip awscliv2.zip
+./aws/install
+pip install awscli-local
+alias awslocal="aws --endpoint-url=http://localhost:4566 --region eu-west-1" >> ~/.bashrc
+git clone https://github.com/iAlan02/hello-LocalStack.git && cd hello-LocalStack
+docker-compose up -d
+
+```{{execute}}
+
+
+una vez que este esto, seguimos con el paso que esta debajo.
+
+
 
 usaremos para configurar nuestra cuenta "fake", los siguientes datos
 
