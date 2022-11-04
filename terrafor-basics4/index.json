@@ -1,0 +1,40 @@
+{
+  "pathwayTitle": "Terraform Basico4",
+  "title": "Terraform Basico4",
+  "description": "Ejemplo basico de terraform4",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Terraform basico4",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "title": "terraform demo",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "provider.tf", "target": "/root"},
+	{"file": "kube.tf", "target": "/root"},
+	{"file": "solucion.tf", "target": "/tmp"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
