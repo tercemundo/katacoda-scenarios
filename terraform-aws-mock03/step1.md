@@ -39,24 +39,13 @@ terraform version
 ```{{execute}}
 
 
-Y ahora haremos una serie de consultas a IAM.
+Y ahora crearemos un usuario via archivos tf.
 
 
 ```
-awslocal iam list-users
+cd /root && terraform init && terraform validate && terraform plan && terraform apply --auto-approve
 ```{{execute}}
 
-Vemos que no tenemos ningun usuario creado. vamos a crear un usuario llamado walter y luego uno llamado emanuel
-
-```
-awslocal iam create-user --user-name emanuel
-```{{execute}}
-
-Ahora vamos a crear uno llamado walter
-
-```
-awslocal iam create-user --user-name walter
-```{{execute}}
 
 
 y ahora listamos los usuarios.
