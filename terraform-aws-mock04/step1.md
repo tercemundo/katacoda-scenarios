@@ -57,7 +57,6 @@ awslocal iam list-users
 
 Vemos que no tenemos ningun usuario creado. vamos a crear un los siguientes usuarios, usando una lista. 
 
-```
 Lanzamos los comandos de terra
 
 ```
