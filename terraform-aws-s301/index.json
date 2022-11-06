@@ -1,0 +1,41 @@
+{
+  "pathwayTitle": "Terraform aws-bucket01",
+  "title": "Terraform aws-bucket01",
+  "description": "Terraform aws-bucket01",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Terraform aws-bucket01",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "title": "terraform demo",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "main.tf", "target": "/root"},
+	{"file": "provider.tf", "target": "/root"},
+	{"file": "variables.tf", "target": "/root"},
+	{"file": "terraform.tfvars", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
