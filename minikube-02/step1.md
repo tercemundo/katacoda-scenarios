@@ -33,3 +33,9 @@ y Luego, los comandos de rigor
 Y luego hacemos 
 
 `kubectl get po`{{execute}}
+
+
+Luego
+
+
+[DemoNginxHelm]({{TRAFFIC_HOST1_30201}})
