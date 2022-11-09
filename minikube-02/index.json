@@ -1,6 +1,6 @@
 {
-	"pathwayTitle": "Kubernetes Bootcamp",
-	"title": "Module 2 - Deployando una aplicacion",
+	"pathwayTitle": "Terraform Helm Provider",
+	"title": "Terraform Helm Provider",
 	"description": "Deploy an app",
 	"backend": {
 		"port": 30000,
