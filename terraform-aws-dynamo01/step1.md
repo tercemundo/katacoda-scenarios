@@ -45,11 +45,12 @@ cd /root && terraform init && terraform validate && terraform plan && terraform 
 ```{{execute}}
 
 
-y ahora vemos el resultado .
+y ahora vemos el resultado 
 
 
-```
-terraform show
-```{{execute}}
+¿Cual es el error acá?
+
+HINT: host
+
 
 
