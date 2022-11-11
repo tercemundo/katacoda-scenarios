@@ -20,7 +20,6 @@ echo "output = json" >> /root/.aws/config
 echo "[default]" > /root/.aws/credentials
 echo "aws_access_key_id = foo" >> /root/.aws/credentials
 echo "aws_secret_access_key = bar" >> /root/.aws/credentials
-echo "127.0.0.1	aws" >> /etc/hosts
 ```{{execute}}
 
 
