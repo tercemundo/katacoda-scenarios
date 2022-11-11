@@ -46,7 +46,7 @@ Crearemos el server de minio.
 wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio_20221111034420.0.0_amd64.deb -O minio.deb
 dpkg -i minio.deb
 mkdir ~/minio
-nohup  minio server ~/minio --console-address :30080 &
+nohup  minio server ~/minio --console-address :9000 &
 ```{{execute}}
 
 
@@ -57,7 +57,7 @@ Ahora lo mismo para la linea de comandos de minio.
 wget https://dl.min.io/client/mc/release/linux-amd64/mc
 chmod +x mc
 mv mc /usr/local/bin/mc
-mc alias set local http://127.0.0.1:30080 minioadmin minioadmin
+mc alias set local http://127.0.0.1:9000 minioadmin minioadmin
 mc admin info local
 
 ```{{execute}}
