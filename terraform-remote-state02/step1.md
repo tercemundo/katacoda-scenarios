@@ -46,7 +46,7 @@ Crearemos el server de minio.
 wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio_20221111034420.0.0_amd64.deb -O minio.deb
 dpkg -i minio.deb
 mkdir ~/minio
-nohup  minio server ~/minio --console-address :9000 &
+nohup  minio server ~/minio --console-address :30080 &
 ```{{execute}}
 
 
@@ -61,6 +61,17 @@ mc alias set local http://127.0.0.1:9000 minioadmin minioadmin
 mc admin info local
 
 ```{{execute}}
+
+
+Creamos un bucket llamado qqmelo
+
+```
+mc mb local/qqmelo
+```{{execute}}
+
+Ejecutamos el server de s3, user minionadmin pass minionadmin
+
+[S3 server]({{TRAFFIC_HOST1_30080}})
 
 
 ```
