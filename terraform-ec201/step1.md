@@ -56,3 +56,10 @@ cd /root && terraform init && terraform plan && terraform apply --auto-approve
 ```{{execute}}
 
 
+
+verificamos que todo este ok credo , con el siguiente comando
+
+```
+terraform show
+
+```{{execute}}
