@@ -89,6 +89,7 @@ vamos a crearlo!
 para eso, primero crearemos un directorio .ssh
 
 ```
+cd /root
 mkdir .ssh
 ssh-keygen -t rsa -N "" -f .ssh/cerberus
 ```{{execute}}
