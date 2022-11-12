@@ -18,8 +18,8 @@ echo "region = us-east-1" >> /root/.aws/config
 echo "output = json" >> /root/.aws/config
 
 echo "[default]" > /root/.aws/credentials
-echo "aws_access_key_id = foo" >> /root/.aws/credentials
-echo "aws_secret_access_key = bar" >> /root/.aws/credentials
+echo "aws_access_key_id = minioadmin" >> /root/.aws/credentials
+echo "aws_secret_access_key = minioadmin" >> /root/.aws/credentials
 
 ```{{execute}}
 
@@ -57,16 +57,16 @@ Ahora lo mismo para la linea de comandos de minio.
 wget https://dl.min.io/client/mc/release/linux-amd64/mc
 chmod +x mc
 mv mc /usr/local/bin/mc
-mc alias set local http://127.0.0.1:9000 minioadmin minioadmin
+mc alias set local http://172.30.1.2:9000 minioadmin minioadmin
 mc admin info local
 
 ```{{execute}}
 
 
-Creamos un bucket llamado qqmelo
+Creamos un bucket llamado remote-state
 
 ```
-mc mb local/qqmelo
+mc mb local/remote-state
 ```{{execute}}
 
 Ejecutamos el server de s3, user minionadmin pass minionadmin

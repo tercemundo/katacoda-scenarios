@@ -23,7 +23,8 @@
     "assets": {
       "host01": [
         {"file": "main.tf", "target": "/root"},
-	{"file": "variables.tf", "target": "/root"}
+	{"file": "variables.tf", "target": "/root"},
+	{"file": "terraform.tf", "target": "/root"}
       ]
     }
   },
