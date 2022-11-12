@@ -3,7 +3,7 @@ terraform {
     key = "terraform.tfstate"
     region = "us-east-1"
     bucket = "remote-state"
-    endpoint = "http://172.16.238.105:9000"
+    endpoint = "http://172.30.1.2:9000"
     force_path_style = true
 
 
