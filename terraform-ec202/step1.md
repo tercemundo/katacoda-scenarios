@@ -96,6 +96,16 @@ ssh-keygen -t rsa -N "" -f .ssh/cerberus
 
 y Luego de que esto esta generado, vemos de correr los comandos para lanzar la ec2
 
+Agregamos este bloque para el sshkey
+
+```
+resource "aws_instance" "cerberus" {
+  ami           = var.ami
+  instance_type = var.instance_type
+  key_name      = "cerberus"
+}
+```
+
 
 ```
 cd /root && terraform init && terraform plan && terraform apply --auto-approve

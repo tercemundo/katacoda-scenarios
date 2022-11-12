@@ -8,11 +8,13 @@ variable "instance_type" {
 variable "region" {
   default = "eu-west-2"
 }
-resource "aws_instance" "cerberus" {
-    ami = var.ami
-    instance_type = var.instance_type
 
+resource "aws_instance" "cerberus" {
+  ami           = var.ami
+  instance_type = var.instance_type
+  key_name      = "cerberus"
 }
+
 #You can also use variable for key_name
 resource "aws_key_pair" "cerberus-key" {
     key_name = "cerberus"
