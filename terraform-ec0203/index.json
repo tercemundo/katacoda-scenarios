@@ -1,0 +1,40 @@
+{
+  "pathwayTitle": "Terraform aws-ec203",
+  "title": "Terraform aws-ec2-03",
+  "description": "Terraform aws-ec203",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Terraform aws-ec203",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "title": "terraform ec203",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "main.tf", "target": "/root"},
+	{"file": "provider.tf", "target": "/root"},
+	{"file": "install-nginx.sh", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
