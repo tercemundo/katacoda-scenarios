@@ -1,0 +1,39 @@
+{
+  "pathwayTitle": "Terraform State Commands 02",
+  "title": "Terraform State Commands 02",
+  "description": "Terraform State Commands 02",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Terraform State Commands 02",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "title": "terraform state Commands",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "main.tf", "target": "/root"},
+	{"file": "terraform.tfstate", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
