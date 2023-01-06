@@ -1,13 +1,13 @@
 {
-  "pathwayTitle": "Flaskapi Python Kubernetes",
-  "title": "Flaksapi Python kubernetes",
-  "description": "Veremos todo el ciclo de vida de una app de flask.",
+  "pathwayTitle": "Readiness Kubernetes",
+  "title": "Readiness kubernetes",
+  "description": "Readiness.",
   "difficulty":	"Beginner",
   "time":	"15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Your Kubernetes Cluster",
+        "title": "Readiness",
         "text": "step1-k8s.md",
         "code": "clear.sh"
       },
