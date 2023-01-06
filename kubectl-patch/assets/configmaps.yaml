@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+  generation: 1
+  labels:
+    app: configmap
+  name: configmap
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: configmap
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: configmap
+    spec:
+      containers:
+      - image: busybox
+        name : configmap 
+        command: [ "/bin/sh", "-c", 'while true ; do echo "$MENSAJE1"; sleep 1; done;' ]
+        envFrom:
+        - configMapRef:
+            name: cm1
