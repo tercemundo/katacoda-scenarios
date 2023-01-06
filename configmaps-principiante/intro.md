@@ -1,1 +1,1 @@
-En este laboratorio veremos el uso avanzado de ConfigMaps.
+En este laboratorio veremos el uso basico de ConfigMaps.
