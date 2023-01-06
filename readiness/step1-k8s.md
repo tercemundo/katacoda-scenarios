@@ -2,12 +2,14 @@
 
 Para este escenario, hemos preparado un cluster de minikube para ud..
 
-`kubectl version --short && 
-kubectl get componentstatus && 
-kubectl get nodes && 
+`kubectl version --short && \
+kubectl get componentstatus && \
+kubectl get nodes && \
 kubectl cluster-info`{{execute}}
 
-El manejador HELM [Helm](https://helm.sh/) Esta listo.
+el manejador HELM [Helm](https://helm.sh/) Esta listo.
+
+`snap install helm --classic`{{execute}}
 
 `helm version --short`{{execute}}
 

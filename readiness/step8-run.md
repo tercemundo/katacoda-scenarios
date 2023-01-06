@@ -1,4 +1,3 @@
+Corremos la aplicacion, lo cual es una simple api.
 
-Y lo podemos ver la aplicacion:
-
-[DemoBootcampParte1]({{TRAFFIC_HOST1_32500}})
+`curl -s https://[[HOST_SUBDOMAIN]]-32500-[[KATACODA_HOST]].environments.katacoda.com`{{execute}}
