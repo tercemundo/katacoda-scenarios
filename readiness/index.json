@@ -1,36 +1,38 @@
 {
-	"title": "Readiness Probes",
-	"description": "Readiness Probes",
-	"pathwayTitle": "Kubernetes Bootcamp",
-	"backend": {
-		"port": 30000,
-		"imageid": "kubernetes-kubeadm-1node"
-	},
-	"environment": {
-		"uilayout": "terminal",
-		"hideintro": false,
-		"hidefinish": false
-	},
-	"details": {
-		"steps": [{
-			"title": " Step 1 Chequeando la configuracion de la terminal",
-			"code": "foreground.sh",
-			"text": "step1.md"
-		} 
-		],
-		"intro": {
-			"courseData": "env-init.sh",
-			"text": "intro.md"
-		},
-		"finish": {
-			"text": "finish.md"
-		},
-		{
-	        "assets": {
-      		"host01": [
-        	{"file": "readiness.yaml", "target": "/root"}
-    			 }
-
-	}
-	}
+  "pathwayTitle": "Readiness Kubernetes",
+  "title": "Readiness Kubernetes",
+  "description": "Readiness Kubernetes",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Readiness Kubernetes",
+        "text": "step1-k8s.md",
+        "code": "clear.sh"
+      },
+    "intro": {
+      "title": "Readiness Kubernetes",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "*.yaml", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
 }

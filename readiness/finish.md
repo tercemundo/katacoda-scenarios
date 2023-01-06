@@ -1,1 +1,3 @@
-# Vimos como hacer readiness basico
+# Conclusion #
+
+Vimos como hacer un deploy completo 
