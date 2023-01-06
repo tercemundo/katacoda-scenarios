@@ -5,4 +5,7 @@ Veremos como correr un deploy con readiness
 
 `kubectl apply -f readiness.yaml`{{execute}}
 
+una vez aplicado , vemos de correr
 
+
+`kubectl get po`{{execute}}
