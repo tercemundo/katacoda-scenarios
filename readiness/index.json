@@ -15,7 +15,7 @@
     "intro": {
       "title": "Readiness",
       "text": "intro.md",
-      "code": "env-init.sh"
+      "code": "env-init.sh",
       "credits": "[Marcelo Guazzardo](http://mguazzardo.blogspot.com)"
     },
     "finish": {
