@@ -1,0 +1,46 @@
+{
+  "pathwayTitle": "Readiness Mal Kubernetes",
+  "title": "Readiness Mal kubernetes",
+  "description": "Readiness Mail.",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Readiness Mal",
+        "text": "step1-k8s.md",
+        "code": "clear.sh"
+      }
+    ],
+    "intro": {
+      "title": "Readiness Mal",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "[Marcelo Guazzardo](http://mguazzardo.blogspot.com)"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "Dockerfile", "target": "/root"},
+        {"file": "*.yaml", "target": "/root"},
+        {"file": "*.java", "target": "/root"},
+        {"file": "token.sh", "target": "/usr/local/bin", "chmod": "+x"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes",
+    "dashboards": [
+      {"name": "Kubernetes Dashboard", "port": 30000},
+      {"name": "Flaskapi App", "port": 32500}
+    ]
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
