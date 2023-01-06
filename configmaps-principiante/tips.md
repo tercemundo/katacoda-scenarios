@@ -24,7 +24,7 @@ Crearemos el configmap de la manera mas sencilla
 
 Aplicamos este deployConfig
 
-`kubectl create -f configmap.yaml`{{execute}}
+`kubectl create -f configmaps.yaml`{{execute}}
 
 Si queremos ver el progreso, lo que hacemos es lo siguiente
 
