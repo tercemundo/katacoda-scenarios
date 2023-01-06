@@ -1,5 +1,5 @@
 {
-    "title": "Configmaps Principiante",
+    "title": "Configmaps Principiante error cm02",
     "difficulty": "beginner",
     "time": "60 minutes",
     "backend": {
@@ -11,7 +11,7 @@
     },
     "details": {
         "steps": [{
-            "title": "Configmaps Principiante",
+            "title": "Configmaps Principiante error cm2",
             "text": "tips.md"
         }],
         "intro": {
