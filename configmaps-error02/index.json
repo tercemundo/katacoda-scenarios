@@ -1,0 +1,31 @@
+{
+    "title": "Configmaps Principiante",
+    "difficulty": "beginner",
+    "time": "60 minutes",
+    "backend": {
+        "imageid": "kubernetes-kubeadm-1node"
+    },
+    "environment": {
+        "showdashboard": true,
+        "uilayout": "terminal-iframe"
+    },
+    "details": {
+        "steps": [{
+            "title": "Configmaps Principiante",
+            "text": "tips.md"
+        }],
+        "intro": {
+            "code": "set-env.sh",
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+   	 "assets": {
+      	"host01": [
+        	{"file": "*.yaml", "target": "/root"}
+      ]
+    }
+  }
+}
+
