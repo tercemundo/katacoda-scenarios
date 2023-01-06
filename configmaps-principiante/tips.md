@@ -9,7 +9,6 @@ Empezaremos con nuestro proyecto.
 
 
 
-`wget https://raw.githubusercontent.com/mguazzardo/demislamer/master/deploy-config.yaml`{{execute}}
 
 Aca empezamos a forjar nuestro configmap
 
@@ -25,7 +24,7 @@ Crearemos el configmap de la manera mas sencilla
 
 Aplicamos este deployConfig
 
-`kubectl create -f deploy-config.yaml`{{execute}}
+`kubectl create -f configmap.yaml`{{execute}}
 
 Si queremos ver el progreso, lo que hacemos es lo siguiente
 
@@ -39,11 +38,11 @@ Me consigo el POD:
 
 Con esto veo los logs, y luego entro al POD
 
-``oc logs $POD``{{execute}}
+`kubectl logs $POD`{{execute}}
 
 Ahora vemos las variables de ambiente, para eso entramos al pod
 
-`kubectl exec -it $POD -- bash`{{execute}}
+`kubectl exec -it $POD -- sh`{{execute}}
 
 Y adentro del pod
 
