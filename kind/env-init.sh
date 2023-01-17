@@ -1,31 +1,20 @@
-#wget -q -O - https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash -
-#
-#if ( type k3d > /dev/null 2>&1 ) ; then
-#  k3d cluster create k8s -a 2;
-#  k3d cluster create dk8s -a 1;
-#  kubectl config use-context k3d-k8s
-#else
-#  echo "k3d is not installed can't proceed "; exit 1;
-#
-#fi
-#
-#kubectl create ns auditing
-#kubectl create ns marketing
-#kubectl create cronjob -n auditing doaudits --image=busybox --schedule="*/1 * * * *" -- sleep 4
-#kubectl create cronjob -n marketing sendInfo --image=busybox --schedule="*/1 * * * *" -- sleep 2
-#kubectl create cronjob -n marketing sendinfo --image=busybox --schedule="*/1 * * * *" -- sleep 2
-#sleep 2m
-#kubectl -n marketing patch cronjobs.batch sendinfo -p '{"spec":{"suspend":true}}'
-#
-## Senario 4
-#kubectl create deployment deploy-charts --image=nginx:stable-alpine -n auditing
+wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install terraform
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+./aws/install
+pip install awscli-local
+alias awslocal="aws --endpoint-url=http://localhost:4566 --region eu-west-1" >> ~/.bashrc
+git clone https://github.com/iAlan02/hello-LocalStack.git && cd hello-LocalStack
+docker-compose up -d
 
-#apt-get update && apt-get install -y kubeadm=1.19.0-00
-#kubeadm config images pull
-#apt-get install -y kubelet=1.19.0-00 kubectl=1.19.0-00
-#apt-get install -y kubelet=1.19.0-00 kubectl=1.19.0-00
+mkdir /root/.aws
+echo "[default]" > /root/.aws/config
+echo "region = us-east-1" >> /root/.aws/config
+echo "output = json" >> /root/.aws/config
 
-wget https://github.com/sharkdp/bat/releases/download/v0.15.4/bat_0.15.4_amd64.deb
-sudo dpkg -i bat_0.15.4_amd64.deb
+echo "[default]" > /root/.aws/config
+echo "aws_access_key_id = foo" >> /root/.aws/credentials
+echo "aws_secret_access_key = bar" >> /root/.aws/credentials
 
-rm -rf bat_0.15.4_amd64.deb

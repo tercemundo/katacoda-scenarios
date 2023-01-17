@@ -1,1 +1,3 @@
-## Mostraremos como instalar un cluster de k8s usando kind
+# Veremos como correr un cluster con requisitos minimoss! 
+
+

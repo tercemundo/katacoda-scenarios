@@ -1,50 +1,38 @@
 {
-  "title": "Modulo 14 - Instalando 1 master 3 Nodes cluster usando kind",
-  "description": "Mostraremos en este escenario lo sencillo que es instalar un cluster con 3 nodos usando dind",
-  "difficulty": "intermediate",
-  "time": "30 minutes",
+  "pathwayTitle": "Kind",
+  "title": "Kind",
+  "description": "Kind",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Setup",
-      "text": "step1.md",
-      "courseData": "env-init.sh",
-      "code": "foreground.sh"
-    },{
-      "title": "Step 2 - Populando el cluster",
-      "text": "step2.md"
-    },{
-      "title": "Step 3 - Chequeo de Iptables",
-      "text": "step3.md"
-    },{
-      "title": "Step 4 - Actualizando el Servicio",
-      "text": "step4.md"
-    },{
-      "title": "Step 5 - Borrando",
-      "text": "step5.md"
-    }],
+    "steps": [
+      {
+        "title": "Kind",
+        "text": "step1.md"
+      }
+    ],
     "intro": {
+      "title": "Kind",
       "text": "intro.md",
-      "credits": ""
+      "code": "env-init.sh",
+      "credits": "Marcelo Guazzardo"
     },
     "finish": {
       "text": "finish.md"
     },
     "assets": {
-            "host01": [
-                {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-                {"file": "install_kind.sh", "target": "/root", "chmod": "+x"},
-                {"file": "deploy.yaml", "target": "/root"},
-                {"file": "kind-cluster.yaml", "target": "/root"},
-                {"file": "isClusterReady.sh", "target": "/root", "chmod": "+x"},
-                {"file": "service.yaml", "target": "/root"}
-            ]
-        }
+      "host01": [
+        {"file": "kind-config.yaml", "target": "/root"}
+      ]
+    }
   },
   "environment": {
+    "showdashboard": true,
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nFollow steps from left - Good luck!!!\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
   },
   "backend": {
-    "imageid": "kubernetes-cluster:1.18"
+    "imageid": "ubuntu"
   }
 }
