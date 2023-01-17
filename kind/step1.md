@@ -27,8 +27,28 @@ Vemos los nodes
 kubectl get nodes
 ```{{execute}}
 
+Etiquetamos el nodo
+
+```
+kubectl label nodes k8s-playground-worker name=app-worker-node
+```{{execute}}
+
+Vemos como esta el nodo
+
+```
+kubectl describe node k8s-playground-worker 
+```{{execute}}
+
+Lanzamos el POD
+
+```
+kubectl create -f pod.yaml
+```{{execute}}
 
 
-
+Vemos que esto haya quedado ok!
+```
+kubectl get po -o wide
+```{{execute}}
 
 
