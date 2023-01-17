@@ -22,7 +22,8 @@
     },
     "assets": {
       "host01": [
-        {"file": "kind-config.yaml", "target": "/root"}
+        {"file": "kind-config.yaml", "target": "/root"},
+        {"file": "pod.yaml", "target": "/root"}
       ]
     }
   },
