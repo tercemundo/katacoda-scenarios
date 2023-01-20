@@ -29,6 +29,7 @@ kubens vault
 nohup kubectl port-forward vault-0 8200:8200 -n vault &
 ```{{execute}}
 
+Darle enter...
 
 Ahora cambiamos de clusterIP a nodeport el servicio (Para acceder desde afuera).
 Me mande un hack para no tener que editar el fichero...
@@ -49,9 +50,11 @@ export VAULT_TOKEN="root"
 export VAULT_ADDR='http://127.0.0.1:8200'
 
 vault login -address=http://127.0.0.1:8200 -tls-skip-verify
-
-vault kv put secret/dev/app username="admin" password="p4ssw0d"
+```{{execute}}
+Acá el token que nos solicitan es root, lo ponemos (Por que esto no se puede automatizar)
 ```
+vault kv put secret/dev/app username="admin" password="p4ssw0d"
+```{{execute}}
 
 Luego salimos y miramos por la pagina web.
 
@@ -84,8 +87,8 @@ Esperamos un rato
 
  
 ```
-sleep 5
- kubectl create -f external-secret/clustersecretstore.yaml
+sleep 15
+kubectl create -f external-secret/clustersecretstore.yaml
 ```{{execute}}
 
 Ahora creamos un namespace app para desplegar el External Secret
