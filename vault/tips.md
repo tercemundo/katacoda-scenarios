@@ -104,6 +104,6 @@ Revisamos
 
 Vamos a la pagina del vault
 
-[VAULT_UI](https://[[HOST_SUBDOMAIN]]-32500-[[KATACODA_HOST]].environments.katacoda.com)
+[VAULT UI]({{TRAFFIC_HOST1_30200}})
 
 NOTA: Este laboratorio, Ha sido creado por Marcelo Guazzardo.
