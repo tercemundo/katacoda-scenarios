@@ -87,7 +87,7 @@ Esperamos un rato
 
  
 ```
-sleep 15
+sleep 30 
 kubectl create -f external-secret/clustersecretstore.yaml
 ```{{execute}}
 
