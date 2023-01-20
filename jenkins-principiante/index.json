@@ -1,0 +1,32 @@
+{
+    "title": "Jenkins Principiante",
+    "difficulty": "beginner",
+    "time": "60 minutes",
+    "backend": {
+        "imageid": "ubuntu"
+    },
+    "environment": {
+        "showdashboard": true,
+        "uilayout": "terminal-iframe"
+    },
+    "details": {
+        "steps": [{
+            "title": "Jenkins Principiante",
+            "text": "tips.md"
+        }],
+        "intro": {
+            "code": "set-env.sh",
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+   	 "assets": {
+      	"host01": [
+        	{"file": "Dockerfile", "target": "/root"},
+        	{"file": "levantar-jenkins.sh", "target": "/root"}
+      ]
+    }
+  }
+}
+
