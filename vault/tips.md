@@ -26,7 +26,8 @@ Vamos al destino vault, y corremos
 
 ```
 kubens vault
-nohup kubectl port-forward vault-0 8200:8200 -n vault &
+
+echo | nohup kubectl port-forward vault-0 8200:8200 -n vault &
 ```{{execute}}
 
 Darle enter...
