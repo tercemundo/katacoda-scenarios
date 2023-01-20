@@ -10,13 +10,13 @@ Clonamos este repo.
 
 Instalamos kubens
 
-`snap install kubens --classic`{{execute}}
+`snap install kubectx --classic`{{execute}}
 
 Empezando
 
 
 ```
-cd ExternalSecretsOperator/
+cd vault01/ExternalSecretsOperator/
 helm repo add hashicorp https://helm.releases.hashicorp.com
 helm install vault hashicorp/vault --namespace vault --create-namespace -f hashicorp-vault/values.yaml
 
