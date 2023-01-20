@@ -27,7 +27,7 @@ Vamos al destino vault, y corremos
 ```
 kubens vault
 
-echo | nohup kubectl port-forward vault-0 8200:8200 -n vault &
+nohup kubectl port-forward vault-0 8200:8200 -n vault
 ```{{execute}}
 
 Darle enter...
@@ -50,7 +50,7 @@ Nota: el token de root es root
 export VAULT_TOKEN="root"
 export VAULT_ADDR='http://127.0.0.1:8200'
 
-vault login -address=http://127.0.0.1:8200 -tls-skip-verify
+vault login -address=http://127.0.0.1:8200 -tls-skip-verify root
 ```{{execute}}
 Acá el token que nos solicitan es root, lo ponemos (Por que esto no se puede automatizar)
 ```
