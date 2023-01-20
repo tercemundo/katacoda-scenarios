@@ -54,6 +54,10 @@ vault kv put secret/dev/app username="admin" password="p4ssw0d"
 
 Luego salimos y miramos por la pagina web.
 
+```
+exit
+```{{execute}}
+
 Ahora instalamos el operator
 
 ```
@@ -73,8 +77,15 @@ Luego generamos el cluster-store
 
 
 
-`kubectl create -f external-secret/secret.yaml && kubectl create -f external-secret/clustersecretstore.yaml`{{execute}}
+`kubectl create -f external-secret/secret.yaml`{{execute}}
 
+Esperamos un rato
+
+ 
+```
+sleep 5
+ kubectl create -f external-secret/clustersecretstore.yaml
+```{{execute}}
 
 Ahora creamos un namespace app para desplegar el External Secret
 
