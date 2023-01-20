@@ -6,7 +6,7 @@ Creamos una imagen de Jenkins pero sin el wizard. Aprovechando que esto es basta
 
 y una vez que la tenemos, lanzamos el contenedor, usando el modo Host para que se pueda accesar luego.
 
-`docker run -dit -p 8080:8080 --network=host -v /var/run/docker.sock:/var/run/docker.sock --name jenkins-curso jenkins-it`{{execute}}
+`docker run -dit -p 8080:8080 --network=host -v /var/run/docker.sock:/var/run/docker.sock --name jenkins-curso qqjenkins`{{execute}}
 
 Esperamos un rato
 
