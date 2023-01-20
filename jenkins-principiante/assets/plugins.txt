@@ -1,0 +1,10 @@
+git:latest
+docker:latest
+docker-pipeline:latest
+ssh:latest
+ssh-agent:latest
+ssh-credentials:latest
+kubernetes-credentials:latest
+kubernetes:latest
+kubernetes-cli:latest
+kubernetes-credentials-provider:latest
