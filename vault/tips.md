@@ -15,19 +15,21 @@ Instalamos kubens
 Empezando
 
 
+
 ```
 cd vault01/ExternalSecretsOperator/
 helm repo add hashicorp https://helm.releases.hashicorp.com
 helm install vault hashicorp/vault --namespace vault --create-namespace -f hashicorp-vault/values.yaml
+```{execute}
 
-```{{execute}}
+
 
 Vamos al destino vault, y corremos
 
 ```
 kubens vault
-nohup kubectl port-forward vault-0 8200:8200 -n vault &
-```{execute}
+#nohup kubectl port-forward vault-0 8200:8200 -n vault &
+```{{execute}}
 
 
 Ahora cambiamos de clusterIP a nodeport el servicio (Para acceder desde afuera)
