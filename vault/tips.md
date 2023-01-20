@@ -30,10 +30,11 @@ nohup kubectl port-forward vault-0 8200:8200 -n vault &
 ```{{execute}}
 
 
-Ahora cambiamos de clusterIP a nodeport el servicio (Para acceder desde afuera)
+Ahora cambiamos de clusterIP a nodeport el servicio (Para acceder desde afuera).
+Me mande un hack para no tener que editar el fichero...
 
 ```
-kubectl edit svc vault
+kubectl apply -f /root/vault01/svc-modificado.yml
 ```{{execute}}
 
 
