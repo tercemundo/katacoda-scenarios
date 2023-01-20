@@ -24,7 +24,8 @@
    	 "assets": {
       	"host01": [
         	{"file": "Dockerfile", "target": "/root"},
-        	{"file": "levantar-jenkins.sh", "target": "/root"}
+        	{"file": "levantar-jenkins.sh", "target": "/root"},
+        	{"file": "plugins.txt", "target": "/root"}
       ]
     }
   }

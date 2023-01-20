@@ -1,1 +1,1 @@
-En este laboratorio veremos el uso basico de secrets con vault.
+En este laboratorio veremos el uso basico de Jenkins.
