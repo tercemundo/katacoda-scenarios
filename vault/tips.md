@@ -102,6 +102,8 @@ Revisamos
 
 `kubectl get secret basic-credentials -o yaml -n app`{{execute}}
 
+Vamos a la pagina del vault
 
+[VAULT_UI](https://[[HOST_SUBDOMAIN]]-32500-[[KATACODA_HOST]].environments.katacoda.com)
 
 NOTA: Este laboratorio, Ha sido creado por Marcelo Guazzardo.
