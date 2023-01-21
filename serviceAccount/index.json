@@ -1,5 +1,5 @@
-i{
-    "title": "Service Account Principiante",
+{
+    "title": "ServiceAccount Principiante",
     "difficulty": "beginner",
     "time": "60 minutes",
     "backend": {
@@ -11,7 +11,7 @@ i{
     },
     "details": {
         "steps": [{
-            "title": "Service Account Principiante",
+            "title": "ServiceAccount Principiante",
             "text": "tips.md"
         }],
         "intro": {
@@ -24,7 +24,6 @@ i{
    	 "assets": {
       	"host01": [
         	{"file": "*.yaml", "target": "/root"},
-        	{"file": "*.yml", "target": "/root"},
         	{"file": "*.sh", "target": "/root"}
       ]
     }
