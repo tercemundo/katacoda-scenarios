@@ -1,0 +1,1 @@
+Veremos taint y tolerations
