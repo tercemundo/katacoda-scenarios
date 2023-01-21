@@ -24,6 +24,7 @@
    	 "assets": {
       	"host01": [
         	{"file": "*.yaml", "target": "/root"},
+        	{"file": "*.yml", "target": "/root"},
         	{"file": "*.sh", "target": "/root"}
       ]
     }
