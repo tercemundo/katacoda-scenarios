@@ -18,7 +18,7 @@ Con esto , tenemos que hacer un edit para exportarlo por el puerto 30080
 
 Lo podemos ver aca, aunque estaria dando errores.
 
-[DASHBOARD UI]({{TRAFFIC_HOST1_30200}})
+[DASHBOARD UI]({{TRAFFIC_HOST1_30080}})
 
 Creamos una service account (Por que como el dashboard es un servicio la necesitamo
 
