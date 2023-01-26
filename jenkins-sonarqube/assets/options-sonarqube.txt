@@ -1,0 +1,8 @@
+sonar.projectKey=dvwa-sonarqube
+sonar.projectName=sonarqube-dvwa
+sonar.projectVersion=1.'
+sonar.sources=/var/jenkins_home/workspace/dvwa-sonarqube
+sonar.language=php
+sonarl.sourceEncoding=UTF-8
+sonar.login=admin
+sonar.password=password
