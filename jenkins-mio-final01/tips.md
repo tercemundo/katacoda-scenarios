@@ -1,6 +1,6 @@
 Lanzamos con nuestra imagen precreada.
 
-`docker run -dit -p 8080:8080 --network=host -v /var/run/docker.sock:/var/run/docker.sock --name jenkins-curso docker.io/mguazzardo/docker-final-ok`{{execute}}
+`docker run -dit -p 8080:8080 --network=host -v /var/run/docker.sock:/var/run/docker.sock --name jenkins-curso docker.io/mguazzardo/jenkins-final-ok`{{execute}}
 
 Esperamos un rato
 
