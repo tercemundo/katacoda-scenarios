@@ -1,0 +1,41 @@
+{
+  "pathwayTitle": "Kind-Troubleshooting-img",
+  "title": "Kind-img",
+  "description": "Kind-img",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Kind-img",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "title": "Kind-Troubleshooting-img",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "kind-config.yaml", "target": "/root"},
+        {"file": "deploy-mal.yaml", "target": "/root"},
+        {"file": "verify.sh", "target": "/root"},
+        {"file": "deploy-bien.yaml", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

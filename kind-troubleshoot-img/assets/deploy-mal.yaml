@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: qqmelo 
+  name: qqmelo 
+  namespace: default
+spec:
+  replicas: 3 
+  selector:
+    matchLabels:
+      app: qqmelo 
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: qqmelo
+    spec:
+      containers:
+      - image: ninx
+        name: qqmelo
+#      nodeName: k8s-playground-worker4
