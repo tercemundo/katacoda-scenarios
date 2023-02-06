@@ -12,7 +12,7 @@ function printresult {
   fi
 }
 
-expected="nginx:stable"
+expected="nginx"
 actual=$(kubectl get deployment qqmelo -o jsonpath='{.spec.template.spec.containers[0].image}' 2>/dev/null)
 [[ "$actual" = "$expected" ]]
 printresult "Arregle la imagen." $?
