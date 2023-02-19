@@ -1,0 +1,31 @@
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  authorizationStrategy:
+    globalMatrix: 
+      permissions:
+      - "USER:Overall/Administer:${JENKINS_ADMIN_ID}"
+      - "GROUP:Overall/Read:authenticated"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  numExecutors: 1 
+  remotingSecurity:
+    enabled: true
+  securityRealm: 
+    local:
+      allowsSignup: false
+      users:
+        - id: admin 
+          password: admin
+security:
+  queueItemAuthenticator:
+    authenticators:
+    - global:
+        strategy: "triggeringUsersAuthorizationStrategy"
+unclassified:
+  locale:
+    ignoreAcceptLanguage: true
+    systemLocale: "en"

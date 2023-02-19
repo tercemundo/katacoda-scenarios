@@ -1,0 +1,34 @@
+{
+    "title": "Jenkins Crumber Docker",
+    "difficulty": "beginner",
+    "time": "60 minutes",
+    "backend": {
+        "imageid": "ubuntu"
+    },
+    "environment": {
+        "showdashboard": true,
+        "uilayout": "terminal-iframe"
+    },
+    "details": {
+        "steps": [{
+            "title": "Jenkins Crumber Docker",
+            "text": "tips.md"
+        }],
+        "intro": {
+            "code": "set-env.sh",
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+   	 "assets": {
+      	"host01": [
+        	{"file": "Dockerfile", "target": "/root"},
+        	{"file": "levantar-jenkins.sh", "target": "/root"},
+        	{"file": "casc.yaml", "target": "/root"},
+        	{"file": "plugins.txt", "target": "/root"}
+      ]
+    }
+  }
+}
+
