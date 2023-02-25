@@ -1,36 +1,13 @@
-Nada mas sencillo que correr trivy, para scaner unas imagenes
-
-Para ejecutar un scaneo de una imagen de python
+vemos como ya nos instalo por nosotros killercoda docker.
 
 ```
-docker run aquasec/trivy image python:3.4-alpine
-```{{execute}}
-
-Ahora haremos unos scaneos hacia imagenes propias.
-Con la maxima Severidad
-
-```
-docker run aquasec/trivy image --severity=high docker.io/mguazzardo/flaskapi
-```{{execute}}
-
-Ahora con la severidad critica
+apt -y update
+apt install -y apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+apt -y update
+apt-cache policy docker-ce
+apt  -y install docker-ce
+docker version
 
 ```
-docker run aquasec/trivy image --severity=critical docker.io/mguazzardo/flaskapi
-```{{execute}}
-
-Y ahora lo mismo pero con unas imagenes de PHP. HIGH
-
-```
-docker run aquasec/trivy image --severity=high docker.io/mguazzardo/miphp
-```{{execute}}
-
-Ahora critica
-
-```
-docker run aquasec/trivy image --severity=critical docker.io/mguazzardo/miphp
-```{{execute}}
-
-
-
-
