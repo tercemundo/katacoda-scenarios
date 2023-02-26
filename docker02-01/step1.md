@@ -19,7 +19,7 @@ Y lo que vamos a realizar ahora, es bajar una imagen de docker, y correrla.
 para ello hacemos.
 
 ```
-docker run helloworld
+docker run hello-world
 ```{{execute}}
 
 

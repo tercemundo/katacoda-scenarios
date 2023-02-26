@@ -18,7 +18,8 @@
       "credits": "Marcelo Guazzardo"
     },
     "finish": {
-      "text": "finish.md"
+      "text": "finish.md",
+      "code": "env-init.sh"
     },
     "assets": {
       "host01": [
