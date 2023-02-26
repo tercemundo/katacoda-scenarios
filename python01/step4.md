@@ -1,50 +1,33 @@
+Ahora lo complicamos, y instalamos dos versiones de python
 
-La idea aca es agregarlos
 ```
-git add . 
+apt -y install python
 ```{{execute}}
 
-Luego hacemos un commit 
+
+Corremos esta app.
+
 
 ```
-git commit -m 'subiendo'
+import sys
+
+def print_message():
+   if sys.version_info[0] < 3:
+     print("Hello World v2")
+   else:
+     print("Hello World v3")
+
+if __name__ == '__main__':
+    print_message()
 ```{{execute}}
 
-vemos como estan alli los archivos
 
-
-WARNING:!
-
-vemos lo siguiente!.
-
-y es logico!
+Para ejecutarlo lo que hacemos es correr
 
 ```
-*** Please tell me who you are.
+python main.py
 
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: unable to auto-detect email address (got 'root@ubuntu.(none)')
-
-```
-
-
-Asi que haremos lo que nos pide
-
-```
-  git config --global user.email "mguazzardo@gmail.com"
-  git config --global user.name "Marcelo Guazzardo"
 ```{{execute}}
 
-y luego de esto, vamos a correr de nuevo el git status!
 
-
-`git status`{{execute}}
-
-
+¿Que es lo que esta pasando?
