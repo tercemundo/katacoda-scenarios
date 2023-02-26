@@ -30,7 +30,6 @@
     "intro": {
       "title": "Iniciando git",
       "text": "intro.md",
-      "code": "env-init.sh",
       "credits": "Marcelo Guazzardo"
     },
     "finish": {
