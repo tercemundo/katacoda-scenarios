@@ -6,7 +6,7 @@ networks:
 
 services:
   server:
-    image: docker.io/mguazzardo/gitea
+    image: docker.io/mguazzardo/mygitea
     container_name: gitea
     environment:
       - USER_UID=1003
