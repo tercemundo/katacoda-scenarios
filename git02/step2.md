@@ -1,7 +1,7 @@
 crearemos una instalacion de gitea, con una custom image
 
 ```
-sudo adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --disabled-password --home /home/git git --uid 1003 --gid 1003sudo adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --disabled-password --home /home/git git --uid 1003 --gid 1003
+sudo adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --disabled-password --home /home/git git --uid 1003 
 ```{{execute}}
 
 
@@ -41,6 +41,12 @@ services:
     ports:
       - "3000:3000"
       - ":2222:22"
+```
+movemos el docker-compose file y lo corremos
 
+```
+mv /root/docker-compose.yaml /root/gitea
+cd /root/gitea
+docker-compose up -d
 
 ```{{execute}}
