@@ -1,0 +1,26 @@
+version: "3"
+
+networks:
+  gitea:
+    external: false
+
+services:
+  server:
+    image: docker.io/mguazzardo/gitea
+    container_name: gitea
+    environment:
+      - USER_UID=1003
+      - USER_GID=1003
+    restart: always
+    networks:
+      - gitea
+    volumes:
+      - ./gitea:/data
+      - /home/git/.ssh/:/data/git/.ssh
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "3000:3000"
+      - ":2222:22"
+
+
