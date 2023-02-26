@@ -1,0 +1,55 @@
+{
+  "pathwayTitle": "Iniciando git",
+  "title": "Iniciando git",
+  "description": "Iniciando git",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Instalado git",
+        "text": "step1.md"
+      },
+      {
+        "title": "Inicializando los repos",
+        "text": "step2.md"
+      },
+      {
+        "title": "Agregando los archivos",
+        "text": "step3.md",
+	"code": "env-init3.sh"
+      },
+      {
+        "title": "Haciendo el commit",
+        "text": "step4.md"
+      }
+
+
+
+    ],
+    "intro": {
+      "title": "Iniciando git",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "kind-config.yaml", "target": "/root"},
+        {"file": "pod.yaml", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
