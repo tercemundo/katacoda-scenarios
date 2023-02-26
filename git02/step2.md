@@ -50,3 +50,8 @@ cd /root/gitea
 docker-compose up -d
 
 ```{{execute}}
+
+
+Importante.
+
+el usuario de gitea en el puerto 3000, es mguazzardo:master
