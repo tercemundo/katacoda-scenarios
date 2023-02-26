@@ -17,7 +17,7 @@
       {
         "title": "Agregando los archivos",
         "text": "step3.md",
-	"code": "env-init3.sh"
+	"background": "env-init3.sh"
       },
       {
         "title": "Haciendo el commit",
