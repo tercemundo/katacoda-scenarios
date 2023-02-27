@@ -1,0 +1,55 @@
+{
+  "pathwayTitle": "Iniciando NodeJS",
+  "title": "Iniciando NodeJS",
+  "description": "Iniciando NodeJS",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Instalado NodeJS",
+        "text": "step1.md"
+      },
+      {
+        "title": "Instalando una version especifica de NodeJS",
+        "text": "step2.md"
+      },
+      {
+        "title": "Instalando una version especifica de NodeJS",
+        "text": "step3.md"
+      }
+      ,
+      {
+        "title": "Pequeña demo",
+        "text": "step4.md",
+	"credits": "Marcelo Guazzardo"
+      }
+
+
+
+    ],
+    "intro": {
+      "title": "Iniciando git",
+      "text": "intro.md",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "suma.js", "target": "/root"},
+        {"file": "pod.yaml", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
