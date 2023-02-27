@@ -9,7 +9,7 @@ como vemos, no tenemos ninguna.
 Vamos a instalarla, pero las cosas pueden salir mal.
 
 ```
-apt -y install node
+apt -y install nodejs
 ```{{execute}}
 
 
