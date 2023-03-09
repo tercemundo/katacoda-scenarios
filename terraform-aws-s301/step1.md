@@ -46,6 +46,18 @@ cd /root && terraform init && terraform validate && terraform plan && terraform 
 ```{{execute}}
 
 
+vemos que adrede se genera un error. esto es por que esta mal definida la variable region.
+
+agreguemos el siguiente fragmento de codigo en variables.tf y repitamos el comando.
+
+```
+variable "region" {
+  description = "AWS region"
+  type        = string
+  default     = "us-east-1"
+
+```
+
 y ahora vemos el resultado .
 
 
