@@ -10,7 +10,7 @@ unzip awscliv2.zip
 ./aws/install
 pip install awscli-local
 alias awslocal="aws --endpoint-url=http://localhost:4566 --region eu-west-1" >> ~/.bashrc
-git clone https://github.com/tercemundo/hello-localstack && cd hello-LocalStack
+git clone https://github.com/tercemundo/hello-localstack && cd hello-localStack
 docker-compose up -d
 mkdir /root/.aws
 echo "[default]" > /root/.aws/config
