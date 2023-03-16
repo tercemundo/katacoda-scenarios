@@ -73,7 +73,7 @@ cat <<EOF > /root/user2/user-iam.tf
 resource "aws_iam_user" "users" {
      name = "qq"
 }
-
+EOF
 ```{{execute}}
 
 
@@ -101,7 +101,7 @@ cd /root/user2
 terraform plan
 terraform apply --auto-approve
 
-```
+```{{execute}}
 
 
 ahora vemos si se crearon los usuarios.
@@ -116,7 +116,7 @@ awslocal iam list-users
 como vemos los usuarios se crearon correctamente , peero, si corro....
 
 ```
-terraform execute
+terraform show 
 
 ```{{execute}}
 
@@ -141,7 +141,7 @@ para eso
 cd /root
 terraform state pull > /root/final/source.tfstate
 cd /root/user2
-terraform state pull > /root/final/destination.state
+terraform state pull > /root/final/destination.tfstate
 
 ```{{execute}}
 
