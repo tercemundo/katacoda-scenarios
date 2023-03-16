@@ -9,8 +9,8 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip
 ./aws/install
 pip install awscli-local
-alias awslocal="aws --endpoint-url=http://localhost:4566 --region eu-west-1" >> ~/.bashrc
-git clone https://github.com/tercemundo/hello-localstack && cd hello-localStack
+alias awslocal="aws --endpoint-url=http://localhost:4566 --region us-west-1" >> ~/.bashrc
+git clone https://github.com/tercemundo/hello-localstack && cd hello-localstack
 docker-compose up -d
 mkdir /root/.aws
 echo "[default]" > /root/.aws/config
