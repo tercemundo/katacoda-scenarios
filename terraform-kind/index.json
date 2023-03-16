@@ -1,0 +1,38 @@
+{
+  "pathwayTitle": "Terraform Kind",
+  "title": "Terraform Kind",
+  "description": "Terraform Kind",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Terraform Kind",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "title": "terraform Kind",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "main.tf", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
