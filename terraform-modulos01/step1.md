@@ -47,10 +47,14 @@ terraform version
 
 Y ahora hacemos uso de nuestro modulo.
 
+NOTA IMPORTANTE:
 
+Podremos ver como son los parametros y mas informacion de nuestro modulo en el siguiente link.
+
+https://github.com/terraform-aws-modules/terraform-aws-iam
 
 ```
-cd /root && terraform init && terraform validate && terraform plan -var "nombre=qqmelo" && terraform apply -var "nombre=qqmelo" --auto-approve
+cd /root && terraform init && terraform validate && terraform plan  && terraform apply  --auto-approve
 ```{{execute}}
 
 
