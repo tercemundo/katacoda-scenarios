@@ -1,3 +1,3 @@
-variable filename {
-  type = string
+variable "nombre" {
+  default = "mary"
 }
