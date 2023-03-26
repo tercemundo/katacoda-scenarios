@@ -47,8 +47,10 @@ cd /root && terraform init && terraform validate && terraform plan && terraform 
 ```{{execute}}
 
 
+ahora en el archivo variable.tf, borramos el contenido para poder correr en linea de comandos
 
-y ahora listamos los usuarios.
+obviamente que tenemos que hacer un terraform apply de nuevo....
+
 
 
 ```

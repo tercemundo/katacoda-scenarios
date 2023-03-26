@@ -1,13 +1,13 @@
 {
-  "pathwayTitle": "Terraform aws-mock03",
-  "title": "Terraform aws-mock-03",
-  "description": "Terraform aws-mock03",
+  "pathwayTitle": "Terraform aws-Variables",
+  "title": "Terraform aws-variables",
+  "description": "Terraform aws-variables",
   "difficulty":	"Beginner",
   "time":	"15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Terraform aws-mocks03",
+        "title": "Terraform aws-variables",
         "text": "step1.md"
       }
     ],
