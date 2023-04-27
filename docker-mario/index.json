@@ -1,6 +1,6 @@
 {
-	"title": "Popeye",
-	"description": "POPEYE",
+	"title": "Mario Bross",
+	"description": "Mario Bross",
 	"pathwayTitle": "Kubernetes Bootcamp",
 	"backend": {
 		"port": 30000,
@@ -13,7 +13,7 @@
 	},
 	"details": {
 		"steps": [{
-			"title": "veremos como jugar con popeye",
+			"title": "veremos como jugar con mario bross",
 			"code": "foreground.sh",
 			"text": "step1.md"
 		}, {
