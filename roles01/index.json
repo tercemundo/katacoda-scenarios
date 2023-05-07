@@ -1,0 +1,33 @@
+{
+	"pathwayTitle": "Roles",
+	"title": "Roles",
+	"description": "Roles",
+	"backend": {
+		"port": 30000,
+		"imageid": "kubernetes-kubeadm-1node"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Configs iniciales",
+			"text": "step1.md"
+		}, {
+			"title": "Configurando los certs y el kubeconfig",
+			"text": "step2.md"
+		}, {
+			"title": "Agregando los binding",
+			"text": "step3.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	}
+}
