@@ -20,10 +20,11 @@ javac /root/HelloWorld.java
 ```{{execute}}
 
 
-and finally, we 'll run the class (Artifact)
+and finally, we 'll run the class (Artifact). You need to move to /root directory
 
 ```
-java /root/HelloWorld
+cd /root
+java HelloWorld
 ```{{execute}}
 
 we should create the doc for this project
