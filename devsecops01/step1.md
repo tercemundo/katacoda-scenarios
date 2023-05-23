@@ -3,7 +3,8 @@ Clonamos el repositorio de check dependendency
 
 ```
 git clone https://github.com/tercemundo/devsecop01
-cd devsecop01
+mv devsecop01/env.tgz .
+tar xpzf env.tgz
 ```{{execute}}
 
 ```
