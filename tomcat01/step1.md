@@ -61,6 +61,7 @@ Y finalmente , vamos a desplegar un war llamado sample.
 cd /root
 wget https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
 mv sample.war /opt/apache-tomcat-9.0.75/webapps/
+sleep 10
 curl http://localhost:8080/sample/
 ```{{execute}}
 
