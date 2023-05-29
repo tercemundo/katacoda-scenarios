@@ -4,7 +4,7 @@ we will download the kubeudit file
 wget https://github.com/Shopify/kubeaudit/releases/download/v0.22.0/kubeaudit_0.22.0_linux_amd64.tar.gz
 tar xpzf kubeaudit_0.22.0_linux_amd64.tar.gz
 chmod +x kubeaudit
-mv kubeudit /usr/local/bin
+mv kubeaudit /usr/local/bin
 
 ```{{execute}}
 
