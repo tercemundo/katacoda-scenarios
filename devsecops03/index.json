@@ -1,0 +1,55 @@
+{
+  "pathwayTitle": "DEVSECOPS 03",
+  "title": "KUBESCAN",
+  "description": "KUBESCAN",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Non Root Image",
+        "text": "step1.md"
+      },
+      {
+        "title": "running app",
+        "text": "step2.md"
+      },
+      {
+        "title": "Agregando los archivos",
+        "text": "step3.md",
+	"background": "env-init3.sh"
+      },
+      {
+        "title": "Haciendo el commit",
+        "text": "step4.md",
+	"credits": "Marcelo Guazzardo"
+      }
+
+
+
+    ],
+    "intro": {
+      "title": "BuildManagers JAVA02",
+      "text": "intro.md",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "nginx.yaml", "target": "/root"},
+        {"file": "HelloWorld.java", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
