@@ -11,7 +11,7 @@ kubectl run nginx --image=nginx
 Esperamos, y cuando el pod este corriendo, analizamos que usuario lo esta corriendo
 
 ```
-kubectl exec --it nginx -- id
+kubectl exec -it nginx -- id
 
 ```{{execute}}
 
