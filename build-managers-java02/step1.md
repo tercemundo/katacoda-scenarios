@@ -31,7 +31,7 @@ In this directory, we need to run this
 
 ```
 sed 's/3.8.6/3.6.3/' pom.xml  > pom.xml.bkp
-mvn pom.xml.bkp pom.xml
+mv pom.xml.bkp pom.xml
 mvn -B -DskipTests clean package
 ```{{execute}}
 
