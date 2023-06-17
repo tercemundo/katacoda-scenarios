@@ -18,7 +18,7 @@ Ahora instalamos apache tomcat
 
 ```
 
-wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.75/bin/apache-tomcat-9.0.75.tar.gz
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.76/bin/apache-tomcat-9.0.76.tar.gz
 
 ```{{execute}}
 
@@ -30,7 +30,7 @@ Lo movemos al directorio opt
 
 ```
 
-mv apache-tomcat-9.0.75.tar.gz /opt/
+mv apache-tomcat-9.0.76.tar.gz /opt/
 
 ```{{execute}}
 
@@ -40,8 +40,8 @@ Descomprimimos el apache tomcat
 ```
 
 cd /opt/
-tar xpzf apache-tomcat-9.0.75.tar.gz
-cd apache-tomcat-9.0.75
+tar xpzf apache-tomcat-9.0.76.tar.gz
+cd apache-tomcat-9.0.76
 
 
 ```{{execute}}
