@@ -24,6 +24,6 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 Then we go to the argocd server's page
 
-[VAULT UI]({{TRAFFIC_HOST1_30164}}
+[ArgoCD Server]({{TRAFFIC_HOST1_30164}}
 
 NOTE: THis Lab , Has been created  by Marcelo Guazzardo.
