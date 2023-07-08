@@ -21,3 +21,11 @@ Para ingresar al jenkins
 
 [Jenkins]({{TRAFFIC_HOST1_8080}})
 
+
+Revisamos que al final del plugin, este todo correcto.
+
+
+```
+curl localhost:5000/v2/_catalog
+```{{execute}}
+

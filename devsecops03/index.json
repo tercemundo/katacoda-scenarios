@@ -1,55 +1,33 @@
 {
-  "pathwayTitle": "DEVSECOPS 03",
-  "title": "KUBESCAN",
-  "description": "KUBESCAN",
-  "difficulty":	"Beginner",
-  "time":	"15 minutes",
-  "details": {
-    "steps": [
-      {
-        "title": "Non Root Image",
-        "text": "step1.md"
-      },
-      {
-        "title": "running app",
-        "text": "step2.md"
-      },
-      {
-        "title": "Agregando los archivos",
-        "text": "step3.md",
-	"background": "env-init3.sh"
-      },
-      {
-        "title": "Haciendo el commit",
-        "text": "step4.md",
-	"credits": "Marcelo Guazzardo"
-      }
-
-
-
-    ],
-    "intro": {
-      "title": "BuildManagers JAVA02",
-      "text": "intro.md",
-      "credits": "Marcelo Guazzardo"
+    "title": "Jenkins SSH Docker",
+    "difficulty": "beginner",
+    "time": "60 minutes",
+    "backend": {
+        "imageid": "ubuntu"
     },
-    "finish": {
-      "text": "finish.md"
+    "environment": {
+        "showdashboard": true,
+        "uilayout": "terminal-iframe"
     },
-    "assets": {
-      "host01": [
-        {"file": "nginx.yaml", "target": "/root"},
-        {"file": "HelloWorld.java", "target": "/root"}
+    "details": {
+        "steps": [{
+            "title": "Jenkins SSH Docker",
+            "text": "tips.md"
+        }],
+        "intro": {
+            "code": "set-env.sh",
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+   	 "assets": {
+      	"host01": [
+        	{"file": "Dockerfile", "target": "/root"},
+        	{"file": "levantar-jenkins.sh", "target": "/root"},
+        	{"file": "plugins.txt", "target": "/root"}
       ]
     }
-  },
-  "environment": {
-    "showdashboard": true,
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
-    "icon": "fa-kubernetes"
-  },
-  "backend": {
-    "imageid": "kubernetes-kubeadm-1node"
   }
 }
+

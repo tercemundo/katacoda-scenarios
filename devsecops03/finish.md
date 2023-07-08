@@ -1,1 +1,1 @@
-# Non Root Images - Kubeaudit 
+You've completed your Openshift Lab Exercise!
