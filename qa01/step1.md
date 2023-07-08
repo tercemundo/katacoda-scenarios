@@ -13,7 +13,6 @@ Ahora corremos el registro interno.
 
 ```
 docker run -d -p 5000:5000 --name registry registry:2
-kubectl delete po nginx
 ```{{execute}}
 
 
