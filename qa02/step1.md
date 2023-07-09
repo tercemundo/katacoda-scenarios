@@ -5,7 +5,7 @@ Primero corremos jenkins con una imagen preconfigurada, recordar que el pass es 
 y de paso le seteamos a la maquina host, el password de master
 
 ```
-echo "root:master | chpasswd"
+echo "root:master" | chpasswd
 docker run -dit -p 8080:8080 --network=host -v /var/run/docker.sock:/var/run/docker.sock --name jenkins-curso mguazzardo/pipe-seg
 ```{{execute}}
 
