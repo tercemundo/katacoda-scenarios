@@ -1,0 +1,55 @@
+{
+  "pathwayTitle": "QA 02",
+  "title": "QA 02",
+  "description": "QA 02",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "QA 02",
+        "text": "step1.md"
+      },
+      {
+        "title": "running app",
+        "text": "step2.md"
+      },
+      {
+        "title": "Agregando los archivos",
+        "text": "step3.md",
+	"background": "env-init3.sh"
+      },
+      {
+        "title": "Haciendo el commit",
+        "text": "step4.md",
+	"credits": "Marcelo Guazzardo"
+      }
+
+
+
+    ],
+    "intro": {
+      "title": "QA02",
+      "text": "intro.md",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "kind-config.yaml", "target": "/root"},
+        {"file": "HelloWorld.java", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
