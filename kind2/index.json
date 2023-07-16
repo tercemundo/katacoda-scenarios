@@ -1,0 +1,39 @@
+{
+  "pathwayTitle": "Kind2",
+  "title": "Kind2",
+  "description": "Kind2",
+  "difficulty":	"Beginner",
+  "time":	"15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Kind2",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "title": "Kind",
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "Marcelo Guazzardo"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "kind-config.yaml", "target": "/root"},
+        {"file": "svc-patch.yaml", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour interactive Bash terminal.\u001b[m\r\n",
+    "icon": "fa-kubernetes"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
