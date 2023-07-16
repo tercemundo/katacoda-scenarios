@@ -38,5 +38,5 @@ kubectl apply -f svc-patch.yaml
 ```{{execute}}
 
 
-[NGINX]({{TRAFFIC_HOST1_30000}})
+[NGINX]({{TRAFFIC_HOST1_30080}})
 
