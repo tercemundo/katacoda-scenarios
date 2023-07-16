@@ -1,4 +1,5 @@
 NOS BASAMOS EN ESTO PARA SOLUCIONAR EL PROBLEMA: https://stackoverflow.com/questions/62432961/how-to-use-nodeport-with-kind
+https://medium.com/cp-massive-programming/deploying-devtron-in-a-local-k8s-kind-cluster-using-terraform-cea9d4d9636
 
 en este modulo lo que haremos es instalar kind con terraform 
 
