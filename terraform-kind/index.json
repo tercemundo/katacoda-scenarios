@@ -22,7 +22,7 @@
     },
     "assets": {
       "host01": [
-        {"file": "main.tf", "target": "/root"}
+        {"file": "*.tf", "target": "/root"}
       ]
     }
   },
