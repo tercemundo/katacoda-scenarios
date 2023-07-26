@@ -13,6 +13,7 @@ Ahora vamos a instalar el cliente mysql y conectarnos
 
 ``` 
 apt -y install mysql-client
+sleep 5
 mysql -u root -pmaster -h 172.17.0.2 
 ```{{execute}}
 
