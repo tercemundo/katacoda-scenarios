@@ -11,15 +11,18 @@ Lanzamos la imagen, con la password de root master. La ip por defecto que va a t
 
 Ahora vamos a instalar el cliente mysql y conectarnos
 
-``` apt -y install mysql-client
-    mysql -u root -pmaster -h 172.17.0.2 ```{{execute}}
+``` 
+apt -y install mysql-client
+mysql -u root -pmaster -h 172.17.0.2 
+```{{execute}}
 
 
 Ahora vamos a ver las bases de datos, y usar la nuestra
 
-```show databases;
-   use myexample;
-   show tables;
+```
+show databases;
+use myexample;
+show tables;
    ```{{execute}}
 
 Ahora Listamos todo
