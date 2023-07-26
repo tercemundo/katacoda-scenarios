@@ -27,7 +27,7 @@ show tables;
 
 Ahora Listamos todo
 
-`select * from mytable`{{execute}}
+`select * from mytable;`{{execute}}
 
 Con esto finalizamos el ejercicio
 Muchas gracias!
