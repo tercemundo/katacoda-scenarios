@@ -21,7 +21,7 @@ git clone ssh://git@localhost:2222/root/prueba01.git
 una vez aca, vamos a agregar un archivo, prueba01.txt
 
 ```
-cd prueba01.git
+cd prueba01
 echo "hola" > prueba01.txt
 cat prueba01.txt
 ```{{execute}}
@@ -29,6 +29,7 @@ cat prueba01.txt
 Ahora, vamos a setear nuestro git, para eso corremos los siguientes comandos
 
 ```
+cd /root/prueba01
 git config --global user.email "tuemail@gmail.com"
 git config --global user.name "Marcelo Guazzardo"
 git add .
