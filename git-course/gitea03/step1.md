@@ -58,7 +58,7 @@ git push --set-upstream origin release/v0.1
 Y esto lanzara unos PR's.
 
 
-<img align="right" src="./assets/pr01.png" width="100">
+<img align="right" src="./assets/pr01.png" width="400">
 
 
 Creado por Marcelo Guazzardo
