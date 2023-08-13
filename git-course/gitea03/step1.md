@@ -15,7 +15,9 @@ Entramos para ver como anda todo.
 para poder clonar el repo, corremos lo siguiente
 
 ```
-git clone ssh://git@localhost:2222/root/prueba01.git
+#git clone ssh://git@localhost:2222/root/prueba01.git
+GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git clone ssh://git@localhost:2222/root/prueba01.git
+
 ```{{execute}}
 
 una vez aca, vamos a agregar un archivo, prueba01.txt
@@ -55,6 +57,8 @@ git push --set-upstream origin release/v0.1
 
 Y esto lanzara unos PR's.
 
+
+<img align="right" src="./assets/pr01.png" width="100">
 
 
 Creado por Marcelo Guazzardo
