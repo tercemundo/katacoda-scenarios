@@ -39,6 +39,7 @@
     "assets": {
       "host01": [
         {"file": "app.py", "target": "/root"},
+        {"file": "products.py", "target": "/root"},
         {"file": "requirements.txt", "target": "/root"}
       ]
     }
