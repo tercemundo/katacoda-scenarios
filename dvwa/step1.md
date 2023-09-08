@@ -1,5 +1,5 @@
-Lo que haremos, es hacer correr un DVWA con docker, con una custom image,
-en el puerto 80
+
+We 'll launch a docker container in port 80, running DVWA.
 
 
 ```
