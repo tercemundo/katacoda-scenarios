@@ -54,10 +54,10 @@
     "assets": { 
       "client": [{
         "file": "nginx/Dockerfile", 
-        "target": "/home/scrapbook/tutorial/nginx/"
+        "target": "/root"
       }, {
         "file": "nginx/index.html",
-        "target": "/home/scrapbook/tutorial/nginx/"
+        "target": "/root"
       }]
      }
   },
