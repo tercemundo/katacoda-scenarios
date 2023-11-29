@@ -18,11 +18,11 @@
 
 # Primeros pasos: levantamos un servidor web (NGINX)
 - Usaremos una imagen pública de NGINX basada en el SO Alpine.
-- Ejecutaremos `docker run --rm --name webserver -d -p 8080:80 nginx:alpine`{{execute}}
+- Ejecutaremos `docker run --rm --name webserver -d -p 8080:80 nginx:alpine`{{EXCUTE}}
 - Abrimos una pestaña mostrando el puerto ``8080`` del ``HOST 1`` y vemos que efectivamente se ha lanzado el servidor y responde al puerto que hemos publicado.
-- Con el comando `docker ps`{{execute}} vemos los contenedores en ejecución.
+- Con el comando `docker ps`{{EXECUTE}} vemos los contenedores en ejecución.
 - Con `docker images`{{execute}} veremos las imágenes que hemos descargado.
-- Podemos ver los logs del servidor ejecutando `docker logs webserver`{{execute}}
+- Podemos ver los logs del servidor ejecutando `docker logs webserver`{{EXECUTE}}
 - Comprobaremos los procesos en marcha dentro del contenedor con la siguiente orden `docker top webserver`{{EXECUTE}}
 - También podemos disponer de información acerca del consumo de recursos con `docker stats webserver`{{EXECUTE}}
 - Incluso podemos meternos dentro del contenedor con un _bash_ (en este caso usamos ``ash, apline bash``) haciendo `docker exec -it webserver ash`{{EXECUTE}}
