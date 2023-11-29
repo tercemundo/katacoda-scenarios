@@ -51,16 +51,12 @@
       "text": "stages/finish.md",
 	  "credits": ""
     },
-    "assets": { 
-      "client": [{
-        "file": "nginx/Dockerfile", 
-        "target": "/home/scrapbook/tutorial/nginx/"
-      }, {
-        "file": "nginx/index.html",
-        "target": "/home/scrapbook/tutorial/nginx/"
-      }]
-     }
-  },
+    "assets": {
+      "host01": [
+        {"file": "nginx/Dockerfile", "target": "/root"},
+        {"file": "nginx/index.html", "target": "/root"}
+      ]
+    },
   "environment": {
     "showdashboard": true,
 	"uilayout": "terminal-terminal",
