@@ -13,15 +13,7 @@
       {
         "title": "running app",
         "text": "step2.md"
-      },
-      {
-        "title": "Agregando los archivos",
-        "text": "step3.md",
-	"background": "env-init3.sh"
       }
-
-
-
     ],
     "intro": {
       "title": "BuildManagers",
