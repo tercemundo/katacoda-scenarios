@@ -18,11 +18,6 @@
         "title": "Agregando los archivos",
         "text": "step3.md",
 	"background": "env-init3.sh"
-      },
-      {
-        "title": "Haciendo el commit",
-        "text": "step4.md",
-	"credits": "Marcelo Guazzardo"
       }
 
 
